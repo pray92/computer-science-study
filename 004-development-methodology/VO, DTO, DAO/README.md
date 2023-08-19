@@ -103,3 +103,16 @@ public class JdbcRoomDao implements RoomDao {
 ---
 - DTO가 인스턴스라면, VO는 리터럴 개념
 - DTO는 레이어 간의 통신 용도, VO는 특정 비즈니스 값을 담는 객체
+
+# Reference
+[Value Objects Like a Pro](https://medium.com/@nicolopigna/value-objects-like-a-pro-f1bfc1548c72)
+
+[원시 타입 대신 VO(Value Object)를 사용하자](https://hudi.blog/value-object/)
+
+[동일성(Identity)과 동등성(Equality)](https://hudi.blog/identity-vs-equality/)
+
+[DTO의 개념과 사용범위](https://hudi.blog/data-transfer-object/)
+
+[도메인 모델이란?](https://javacan.tistory.com/entry/what-is-a-domain-model)
+
+[[Spring] DAO, DTO, VO의 개념과 차이점](https://kbwplace.tistory.com/162)
