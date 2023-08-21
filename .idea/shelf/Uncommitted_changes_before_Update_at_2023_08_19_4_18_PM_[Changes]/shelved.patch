@@ -1,0 +1,12 @@
+Index: 005-programming-language/java/JVM/README.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/005-programming-language/java/JVM/README.md b/005-programming-language/java/JVM/README.md
+new file mode 100644
+--- /dev/null	(date 1692429421260)
++++ b/005-programming-language/java/JVM/README.md	(date 1692429421260)
+@@ -0,0 +1,1 @@
++# Java Virtual Machine
+\ No newline at end of file
