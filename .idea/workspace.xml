@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="814e2687-1460-42fa-9df2-3135de80c414" name="Changes" comment="Java - StringBuffer vs. StringBuilder" />
+    <list default="true" id="814e2687-1460-42fa-9df2-3135de80c414" name="Changes" comment="Web - 웹브라우저에 URL 입력하면 어떤 일이 일어나는가?">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,11 +15,11 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -34,22 +36,23 @@
     <option name="flattenPackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/redgem92/Desktop/computer-science-study",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/003-database/정규화와 반정규화" />
@@ -67,6 +70,10 @@
       <updated>1691196110204</updated>
       <workItem from="1691196112106" duration="12921000" />
       <workItem from="1692418509705" duration="166000" />
+      <workItem from="1692418687766" duration="14804000" />
+      <workItem from="1692536254946" duration="2839000" />
+      <workItem from="1692579253965" duration="1990000" />
+      <workItem from="1692663294389" duration="7465000" />
     </task>
     <task id="LOCAL-00001" summary="Database - 정규화와 반정규화">
       <created>1691211209774</created>
@@ -103,7 +110,63 @@
       <option name="project" value="LOCAL" />
       <updated>1691216481439</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Development Methodology - VO, DTO, DAO">
+      <created>1692428616890</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1692428616890</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Development Methodology - VO, DTO, DAO">
+      <created>1692428852267</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1692428852267</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;004-development-methodology/VO, DTO, DAO/README.md">
+      <created>1692429509382</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1692429509382</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Java Virtual Machine">
+      <created>1692444725770</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1692444725770</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Development Methodology - 상속으로 인한 코드 공유의 위험성">
+      <created>1692579063827</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1692579063828</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Development Methodology - NPE의 중요성">
+      <created>1692666019884</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1692666019884</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Development Methodology - NPE의 중요성">
+      <created>1692666032974</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1692666032974</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Web - 웹브라우저에 URL 입력하면 어떤 일이 일어나는가?">
+      <created>1692669009978</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1692669009978</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,6 +187,12 @@
     <MESSAGE value="Database - 정규화와 반정규화" />
     <MESSAGE value="README 추가" />
     <MESSAGE value="Java - StringBuffer vs. StringBuilder" />
-    <option name="LAST_COMMIT_MESSAGE" value="Java - StringBuffer vs. StringBuilder" />
+    <MESSAGE value="Development Methodology - VO, DTO, DAO" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;004-development-methodology/VO, DTO, DAO/README.md" />
+    <MESSAGE value="Java Virtual Machine" />
+    <MESSAGE value="Development Methodology - 상속으로 인한 코드 공유의 위험성" />
+    <MESSAGE value="Development Methodology - NPE의 중요성" />
+    <MESSAGE value="Web - 웹브라우저에 URL 입력하면 어떤 일이 일어나는가?" />
+    <option name="LAST_COMMIT_MESSAGE" value="Web - 웹브라우저에 URL 입력하면 어떤 일이 일어나는가?" />
   </component>
 </project>
