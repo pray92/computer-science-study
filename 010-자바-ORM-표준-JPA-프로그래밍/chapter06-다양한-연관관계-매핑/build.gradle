@@ -1,0 +1,25 @@
+plugins {
+	id 'java'
+}
+
+group = 'jpabook'
+version = '0.0.1-SNAPSHOT'
+
+java {
+	sourceCompatibility = '17'
+}
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	// JPA, Hibernate
+	implementation 'org.hibernate:hibernate-entitymanager:5.6.15.Final'
+	// H2 Database
+	runtimeOnly 'com.h2database:h2:2.1.214'
+}
+
+tasks.named('test') {
+	useJUnitPlatform()
+}

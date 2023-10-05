@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="814e2687-1460-42fa-9df2-3135de80c414" name="Changes" comment="Web - 웹브라우저에 URL 입력하면 어떤 일이 일어나는가?">
-      <change afterPath="$PROJECT_DIR$/006-web/Statement vs. PreparedStatement/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2023_08_19_4_18_PM__Changes_.xml" beforeDir="false" />
+    <list default="true" id="814e2687-1460-42fa-9df2-3135de80c414" name="Changes" comment="Java - String">
+      <change afterPath="$PROJECT_DIR$/010-자바-ORM-표준-JPA-프로그래밍/chapter06-다양한-연관관계-매핑/src/main/java/jpabook/variousmapping/JpaMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/010-자바-ORM-표준-JPA-프로그래밍/chapter06-다양한-연관관계-매핑/src/main/java/jpabook/variousmapping/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/010-자바-ORM-표준-JPA-프로그래밍/chapter06-다양한-연관관계-매핑/src/main/java/jpabook/variousmapping/Team.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,29 +39,47 @@
     <option name="flattenPackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/redgem92/Desktop/computer-science-study&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/redgem92/Desktop/computer-science-study/010-자바-ORM-표준-JPA-프로그래밍/chapter06-다양한-연관관계-매핑/src/main/java/jpabook",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/010-자바-ORM-표준-JPA-프로그래밍/chapter06-다양한-연관관계-매핑/src/main/java/jpabook" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/003-database/정규화와 반정규화" />
       <recent name="$PROJECT_DIR$/003-database" />
+      <recent name="$PROJECT_DIR$/003-database/정규화와 반정규화" />
       <recent name="$PROJECT_DIR$/003-database/src" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="computer-science-study" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="computer-science-study" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -75,6 +95,12 @@
       <workItem from="1692536254946" duration="2839000" />
       <workItem from="1692579253965" duration="1990000" />
       <workItem from="1692663294389" duration="7465000" />
+      <workItem from="1693446722450" duration="1846000" />
+      <workItem from="1693804300301" duration="611000" />
+      <workItem from="1694172881967" duration="601000" />
+      <workItem from="1694690103549" duration="3753000" />
+      <workItem from="1696225354452" duration="11126000" />
+      <workItem from="1696302845448" duration="85000" />
     </task>
     <task id="LOCAL-00001" summary="Database - 정규화와 반정규화">
       <created>1691211209774</created>
@@ -167,7 +193,56 @@
       <option name="project" value="LOCAL" />
       <updated>1692669009978</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Database - Statement vs. PreparedStatement">
+      <created>1693109558991</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1693109558991</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Spring - @Transactional">
+      <created>1693283412185</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1693283412185</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Spring - Spring Framework vs. Spring Boot">
+      <created>1695267670814</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1695267670815</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Database - ConnectionPool">
+      <created>1696233487276</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1696233487276</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Database - ConnectionPool">
+      <created>1696233772060</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1696233772060</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Development Methodology - 객체지향과 객체의 정의">
+      <created>1696236749042</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1696236749042</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Java - String">
+      <created>1696294777708</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1696294777708</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -194,6 +269,12 @@
     <MESSAGE value="Development Methodology - 상속으로 인한 코드 공유의 위험성" />
     <MESSAGE value="Development Methodology - NPE의 중요성" />
     <MESSAGE value="Web - 웹브라우저에 URL 입력하면 어떤 일이 일어나는가?" />
-    <option name="LAST_COMMIT_MESSAGE" value="Web - 웹브라우저에 URL 입력하면 어떤 일이 일어나는가?" />
+    <MESSAGE value="Database - Statement vs. PreparedStatement" />
+    <MESSAGE value="Spring - @Transactional" />
+    <MESSAGE value="Spring - Spring Framework vs. Spring Boot" />
+    <MESSAGE value="Database - ConnectionPool" />
+    <MESSAGE value="Development Methodology - 객체지향과 객체의 정의" />
+    <MESSAGE value="Java - String" />
+    <option name="LAST_COMMIT_MESSAGE" value="Java - String" />
   </component>
 </project>
