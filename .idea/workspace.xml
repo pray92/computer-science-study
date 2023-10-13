@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="814e2687-1460-42fa-9df2-3135de80c414" name="Changes" comment="Java - String">
-      <change afterPath="$PROJECT_DIR$/010-자바-ORM-표준-JPA-프로그래밍/chapter01-jpa-소개/README.md" afterDir="false" />
+    <list default="true" id="814e2687-1460-42fa-9df2-3135de80c414" name="Changes" comment="자바 ORM 표준 JPA 프로그래밍 - JPA 소개">
+      <change beforePath="$PROJECT_DIR$/010-자바-ORM-표준-JPA-프로그래밍/chapter02-jpa-시작/src/main/java/jpabook/jpastart/JpaMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/010-자바-ORM-표준-JPA-프로그래밍/chapter02-jpa-시작/src/main/java/jpabook/jpastart/JpaMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,12 +58,25 @@
       <recent name="$PROJECT_DIR$/010-자바-ORM-표준-JPA-프로그래밍/chapter06-다양한-연관관계-매핑/src/main/java/jpabook" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/010-자바-ORM-표준-JPA-프로그래밍/chapter01-jpa-소개/images" />
       <recent name="$PROJECT_DIR$/003-database" />
       <recent name="$PROJECT_DIR$/003-database/정규화와 반정규화" />
       <recent name="$PROJECT_DIR$/003-database/src" />
     </key>
   </component>
   <component name="RunManager">
+    <configuration name="JpaMain" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jpabook.jpastart.JpaMain" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jpabook.jpastart.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="computer-science-study" />
       <method v="2">
@@ -98,7 +111,7 @@
       <workItem from="1694690103549" duration="3753000" />
       <workItem from="1696225354452" duration="11126000" />
       <workItem from="1696302845448" duration="85000" />
-      <workItem from="1697141355341" duration="2502000" />
+      <workItem from="1697141355341" duration="16031000" />
     </task>
     <task id="LOCAL-00001" summary="Database - 정규화와 반정규화">
       <created>1691211209774</created>
@@ -240,7 +253,14 @@
       <option name="project" value="LOCAL" />
       <updated>1696294777708</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="자바 ORM 표준 JPA 프로그래밍 - JPA 소개">
+      <created>1697158903254</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1697158903255</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -273,6 +293,7 @@
     <MESSAGE value="Database - ConnectionPool" />
     <MESSAGE value="Development Methodology - 객체지향과 객체의 정의" />
     <MESSAGE value="Java - String" />
-    <option name="LAST_COMMIT_MESSAGE" value="Java - String" />
+    <MESSAGE value="자바 ORM 표준 JPA 프로그래밍 - JPA 소개" />
+    <option name="LAST_COMMIT_MESSAGE" value="자바 ORM 표준 JPA 프로그래밍 - JPA 소개" />
   </component>
 </project>
