@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<persistence xmlns="http://xmlns.jcp.org/xml/ns/persistence" version="2.1">
+<persistence xmlns="http://xmlns.jcp.org/xml/ns/persistence" version="2.1"> <!-- ORM 책에선 2.1 버전 기준으로 예제 제공 -->
     <persistence-unit name="jpabook">
         <!--
-            JPA usually recognize entity class automatically, it's not relying on environment.
-            Let just enroll entity class using class.
+            JPA 구현체들은 보통 엔티티 클래스를 자동으로 인식하나 환경에 따라 못하는 경우가 있음
+            그땐 아래와 같이 JPA에서 사용할 엔티티 클래스를 지정해야 함
+            스프링 프레임워크나 J2EE 환경에선 엔티티 탐색 기능을 제공해 이런 문제 발생하지 않음
         -->
         <class>jpabook.persistence.Member</class>
         <properties>
@@ -11,14 +12,26 @@
             <property name="javax.persistence.jdbc.driver" value="org.h2.Driver"/>
             <property name="javax.persistence.jdbc.user" value="sa"/>
             <property name="javax.persistence.jdbc.password" value=""/>
-            <property name="javax.persistence.jdbc.url" value="jdbc:h2:~/jpa-test"/>
-            <property name="hibernate.dialect" value="org.hibernate.dialect.H2Dialect"/>
+            <property name="javax.persistence.jdbc.url" value="jdbc:h2:mem:testdb;MODE=mysql"/>     <!-- In-memory H2 -->
+            <property name="hibernate.dialect" value="org.hibernate.dialect.H2Dialect"/>            <!--
+                                                                                                        Hibernate 방언(Dialect) 설정, 전용 속성으로 Hibernate에서만 사용가능
+                                                                                                        - JPA는 특정 DB에 종속되지 않아 다른 DB 교체 가능
+                                                                                                        - 그런데 각 DB가 제공하는 SQL 문법과 함수가 조금씩 다름
+                                                                                                        - 이를 JPA 방언으로 통일시켜 이후 교체하기 쉽게 함
+                                                                                                        - 이를 통해 JPA가 제공하는 표준 문법에 맞춰 JPA를 사용하고
+                                                                                                        - 특정 DB에 의존적인 SQL은 방언이 처리해줌
+                                                                                                            - H2 : org.hibernate.dialect.H2Dialect
+                                                                                                            - 오라클 10g : org.hibernate.dialect.Oracle10gDialect
+                                                                                                            - MySQL : org.hibernate.dialect.MySQL5InnoDBDialect
+                                                                                                            - 총 45개의 방언 지원
+                                                                                                    -->
 
             <!-- 옵션 -->
-            <property name="hibernate.show_sql" value="true"/>                  <!-- 실행한 SQL 출력 -->
-            <property name="hibernate.format_sql" value="true"/>                <!-- 실행한 SQL 출력 시 보기 쉽게 정렬 -->
-            <property name="hibernate.use_sql_comments" value="true"/>          <!-- 쿼리 출력 시 주석도 함께 출력 -->
-            <property name="hibernate.id.new_generator_mappings" value="true"/> <!-- JPA 표준에 맞춘 새로운 키 생성 전략 사용 -->
+            <property name="hibernate.show_sql" value="true"/>                                      <!-- 실행한 SQL 출력 -->
+            <property name="hibernate.format_sql" value="true"/>                                    <!-- 실행한 SQL 출력 시 보기 쉽게 정렬 -->
+            <property name="hibernate.use_sql_comments" value="true"/>                              <!-- 쿼리 출력 시 주석도 함께 출력 -->
+            <property name="hibernate.id.new_generator_mappings" value="true"/>                     <!-- JPA 표준에 맞춘 새로운 키 생성 전략 사용 -->
+            <property name="hibernate.hbm2ddl.auto" value="create"/>                                <!-- 엔티티 기반 테이블 자동 생성 -->
         </properties>
     </persistence-unit>
 </persistence>

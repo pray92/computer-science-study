@@ -6,7 +6,7 @@
             그땐 아래와 같이 JPA에서 사용할 엔티티 클래스를 지정해야 함
             스프링 프레임워크나 J2EE 환경에선 엔티티 탐색 기능을 제공해 이런 문제 발생하지 않음
         -->
-        <class>jpabook.jpastart.Member</class>
+        <!--<class>jpabook.jpastart.Member</class>-->
         <properties>
             <!-- 필수 속성 -->
             <property name="javax.persistence.jdbc.driver" value="org.h2.Driver"/>

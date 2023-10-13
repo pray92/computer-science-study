@@ -1,5 +1,6 @@
 package jpabook.persistence;
 
+// JPA 에너테이션 패키지는 javax.persistence
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
@@ -18,8 +19,8 @@ public class Member {
     private String username;// 매핑 에너테이션이 없음, 이르면 필드 명을 사용해서 컬럼명으로 매핑함
                             // 필드 명이 age 이므로 age 컬럼으로 매핑
 
-    // Field without mapping information
-    private Integer age;
+    private Integer age;    // 매핑 정보가 없는 필드
+                            // 필드 명을 사용해서 컬럼 명으로 매핑
 
     public String getId() {
         return id;

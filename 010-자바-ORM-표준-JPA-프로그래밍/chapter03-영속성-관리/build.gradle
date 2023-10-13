@@ -1,3 +1,10 @@
+/**
+ * Gradle
+ * 라이브러리 관리 및 빌드 툴
+ * 종속성 있는 라이브러리를 모두 불러와서 편리하게 관리할 수 있게 함
+ * 	과거엔 이런 라이브러리를 직접 내려받아 사용
+ * 	사용할 라이브러리 이름과 버전만 명시하면 자동으로 내려 받고 관리
+ */
 plugins {
 	id 'java'
 }
@@ -15,9 +22,12 @@ repositories {
 
 dependencies {
 	// JPA, Hibernate
-	implementation 'org.hibernate:hibernate-entitymanager:5.6.15.Final'
-	// H2 Database
-	runtimeOnly 'com.h2database:h2:2.1.214'
+	// hibernate-entitymanager : Hibernate가 JPA 구현체로 동작하도록 JPA 표준을 구현한 라이브러리
+	// 	hibernate-core : 라이브러리
+	// 	hibernate-jpa-2.1-api : JPA 2.1 표준 API를 모아둔 라이브러리
+	implementation 'org.hibernate:hibernate-entitymanager:4.3.10.Final'
+	// H2 Database - 임베디드 H2 사용
+	runtimeOnly 'com.h2database:h2:1.4.187'
 }
 
 tasks.named('test') {
