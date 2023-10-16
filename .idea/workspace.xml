@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="814e2687-1460-42fa-9df2-3135de80c414" name="Changes" comment="자바 ORM 표준 JPA 프로그래밍 - JPA 소개">
-      <change beforePath="$PROJECT_DIR$/010-자바-ORM-표준-JPA-프로그래밍/chapter02-jpa-시작/src/main/java/jpabook/jpastart/JpaMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/010-자바-ORM-표준-JPA-프로그래밍/chapter02-jpa-시작/src/main/java/jpabook/jpastart/JpaMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/010-자바-ORM-표준-JPA-프로그래밍/엔티티-매핑/src/main/java/jpabook/entitymapping/Board.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/010-자바-ORM-표준-JPA-프로그래밍/엔티티-매핑/src/main/java/jpabook/entitymapping/BoardAuto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/010-자바-ORM-표준-JPA-프로그래밍/엔티티-매핑/src/main/java/jpabook/entitymapping/BoardTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/010-자바-ORM-표준-JPA-프로그래밍/엔티티-매핑/src/main/java/jpabook/entitymapping/RoleType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,23 +40,23 @@
     <option name="flattenPackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/redgem92/Desktop/computer-science-study",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/redgem92/Desktop/computer-science-study&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/010-자바-ORM-표준-JPA-프로그래밍/chapter06-다양한-연관관계-매핑/src/main/java/jpabook" />
@@ -112,6 +116,7 @@
       <workItem from="1696225354452" duration="11126000" />
       <workItem from="1696302845448" duration="85000" />
       <workItem from="1697141355341" duration="16031000" />
+      <workItem from="1697418369390" duration="2663000" />
     </task>
     <task id="LOCAL-00001" summary="Database - 정규화와 반정규화">
       <created>1691211209774</created>

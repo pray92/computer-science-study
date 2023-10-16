@@ -6,7 +6,7 @@ group = 'jpabook'
 version = '0.0.1-SNAPSHOT'
 
 java {
-	sourceCompatibility = '17'
+	sourceCompatibility = '11'
 }
 
 repositories {
@@ -14,10 +14,8 @@ repositories {
 }
 
 dependencies {
-	// JPA, Hibernate
-	implementation 'org.hibernate:hibernate-entitymanager:5.6.15.Final'
-	// H2 Database
-	runtimeOnly 'com.h2database:h2:2.1.214'
+	implementation 'org.hibernate:hibernate-entitymanager:4.3.10.Final'
+	runtimeOnly 'com.h2database:h2:1.4.187'
 }
 
 tasks.named('test') {
