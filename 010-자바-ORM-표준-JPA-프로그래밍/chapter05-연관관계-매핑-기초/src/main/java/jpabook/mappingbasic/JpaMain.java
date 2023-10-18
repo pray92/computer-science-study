@@ -63,6 +63,11 @@ public class JpaMain {
         EntityTransaction tx = em.getTransaction();
         try {
             tx.begin();
+            insertBi();
+            tx.commit();
+            em.clear(); // em.flush()는 안됨
+            tx = em.getTransaction();
+            tx.begin();
             bidirection();
             tx.commit();
         } catch (Exception e) {
@@ -153,9 +158,13 @@ public class JpaMain {
 
 
     /**
-     * WARNING: insertBi를 보면 setTeam을 통해 연관관계 주인인 Member에 연관관계를 맺는 방식을 시도했으나 동작 안함
+     * INFO: insertBi를 보면 setTeam을 통해 연관관계 주인인 Member에 연관관계를 맺는 방식을 시도했으나 동작 안함
      * 오히려 Team에서 members에 추가, 즉 연관관계 주인이 아닌 객체에 참조해야 매핑이 되는 것을 확인할 수 있음.
-     * 레거시 버전 사용으로 인한 문제라 우선 추측, 책에 있는 내용대로 기술.
+     *
+     * insertBi 이후 em.clear()를 사용 후에 Team을 조회하면 members가 정상 동작하는 것을 확인.
+     * 이로써 알 수 있는 사실:
+     *  1. clear, DB에 완전 등록될 때까지 영속 상태의 엔티티는 애플리케이션에서 참조한 상태를 유지 -> getMembers().add() 후 동작한 이유
+     *  2. 양방향 연관관계 매핑은 트랜잭션이 끝나고 DB에 등록되어 영속성 컨텍스트가 초기화된 이후에 동작함
      */
     private static void insertBi() {
 
@@ -201,7 +210,7 @@ public class JpaMain {
      *  member1.setTeam(team);              // 연관관계 설정(주인)
      */
     private static void bidirection() {
-        insertBi();
+        //insertBi();
 
         final TeamBi team = em.find(TeamBi.class, "team1");
         System.out.println("team.getName() = " + team.getName());
