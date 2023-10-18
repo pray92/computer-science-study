@@ -44,6 +44,14 @@ import java.util.List;
  * SELECT * FROM MEMBER M JOIN TEAM T ON M.TEAM_ID = T.TEAM_ID(회원 -> 팀)
  * SELECT * FROM TEAM T JOIN MEMBER M ON T.TEAM_ID = M.TEAM_ID(회원 -> 팀)
  *
+ * 정리:
+ * - 단방향 매핑만으로 테이블과 객체의 연관관계 매핑은 이미 완료
+ * - 단방향을 양방향ㅇ으로 만들면 반대방향으로 객체 그래프 탐색 기능이 추가도미
+ * - 양방향 연관관계를 매핑하려면 객체에서 양쪽 방향을 모두 관리해야 함
+ *
+ * 연관관계 주인 정하는 기준
+ * - 비즈니스 로직상 더 중요하다고 주인으로 판단하면 안됨
+ * - 외래키 관리자 정도의 의미로만 부여해야 함
  */
 public class JpaMain {
 
