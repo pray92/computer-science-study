@@ -1,22 +1,19 @@
-package jpabook.mappingbasic;
+package jpabook.mappingbasic.single;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
-import javax.persistence.OneToMany;
-import java.util.ArrayList;
-import java.util.List;
 
 @Entity
-public class Team {
+public class TeamSingle {
 
     @Id
     @Column(name = "TEAM_ID")
     private String id;
+
     private String name;
 
-    @OneToMany(mappedBy = "team")
-    private List<Member> members = new ArrayList<>();
+    public TeamSingle() {}
 
     public String getId() {
         return id;
@@ -33,4 +30,5 @@ public class Team {
     public void setName(String name) {
         this.name = name;
     }
+
 }
