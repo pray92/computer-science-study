@@ -1,24 +1,19 @@
-package jpabook.variousmapping;
+package jpabook.variousmapping.manytomany.composite;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
+import javax.persistence.*;
+import java.util.ArrayList;
+import java.util.List;
 
 @Entity
-public class Product {
+public class ProductComp {
 
     @Id @Column(name = "PRODUCT_ID")
     private String id;
 
     private String name;
 
-
-    public Product() {
-    }
-
-    public Product(String name) {
-        this.name = name;
-    }
+    @OneToMany(mappedBy = "product")
+    private List<MemberProduct> members = new ArrayList<>();
 
     public String getId() {
         return id;
@@ -36,4 +31,7 @@ public class Product {
         this.name = name;
     }
 
+    public List<MemberProduct> getMembers() {
+        return members;
+    }
 }

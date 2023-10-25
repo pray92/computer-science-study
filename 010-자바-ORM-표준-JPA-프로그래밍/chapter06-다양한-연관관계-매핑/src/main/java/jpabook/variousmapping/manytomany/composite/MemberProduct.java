@@ -1,4 +1,4 @@
-package jpabook.variousmapping;
+package jpabook.variousmapping.manytomany.composite;
 
 import javax.persistence.*;
 
@@ -9,28 +9,28 @@ public class MemberProduct {
     @Id
     @ManyToOne
     @JoinColumn(name = "MEMBER_ID")
-    private Member member;      // MemberProductId.member와 연결
+    private MemberComp member;      // MemberProductId.member와 연결
 
     @Id
     @ManyToOne
     @JoinColumn(name = "PRODUCT_ID")
-    private Product product;    // MemberProductId.product와 연결
+    private ProductComp product;      // MemberProductId.product와 연결
 
     private int orderAmount;
 
-    public Member getMember() {
+    public MemberComp getMember() {
         return member;
     }
 
-    public void setMember(Member member) {
+    public void setMember(MemberComp member) {
         this.member = member;
     }
 
-    public Product getProduct() {
+    public ProductComp getProduct() {
         return product;
     }
 
-    public void setProduct(Product product) {
+    public void setProduct(ProductComp product) {
         this.product = product;
     }
 
