@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!--
+    NOTE: JDK 17부터 reflection을 통한 함수 접근 불가 이슈 있음
+-->
+<persistence xmlns="http://xmlns.jcp.org/xml/ns/persistence" version="2.1"> <!-- ORM 책에선 2.1 버전 기준으로 예제 제공 -->
+    <persistence-unit name="jpabook">
+        <class>jpabook.proxy.eager.Member</class>
+        <class>jpabook.proxy.eager.Team</class>
+        <!--<class>jpabook.proxy.lazy.Member</class>
+        <class>jpabook.proxy.lazy.Team</class>-->
+
+        <!--<class>jpabook.proxy.transitive.Parent</class>
+        <class>jpabook.proxy.transitive.Child</class>-->
+        <class>jpabook.proxy.orphan.Parent</class>
+        <class>jpabook.proxy.orphan.Child</class>
+
+        <properties>
+            <!-- 필수 속성 -->
+            <property name="javax.persistence.jdbc.driver" value="org.h2.Driver"/>
+            <property name="javax.persistence.jdbc.user" value="sa"/>
+            <property name="javax.persistence.jdbc.password" value=""/>
+            <property name="javax.persistence.jdbc.url" value="jdbc:h2:mem:testdb;MODE=mysql"/>     <!-- In-memory H2 -->
+
+            <!-- 옵션 -->
+            <property name="hibernate.dialect" value="org.hibernate.dialect.H2Dialect"/>            <!--
+                                                                                                        Hibernate 방언(Dialect) 설정
+                                                                                                        Oracle 설정 시 oracle 방식으로 ddl 수행
+                                                                                                    -->
+            <property name="hibernate.show_sql" value="true"/>                                      <!-- 실행한 SQL 출력 -->
+            <property name="hibernate.format_sql" value="true"/>                                    <!-- 실행한 SQL 출력 시 보기 쉽게 정렬 -->
+            <property name="hibernate.use_sql_comments" value="true"/>                              <!-- 쿼리 출력 시 주석도 함께 출력 -->
+            <property name="hibernate.id.new_generator_mappings" value="true"/>                     <!-- JPA 표준에 맞춘 새로운 키 생성 전략 사용 -->
+            <!--
+                hibernate.hbm2ddl.auto: 엔티티 기반 테이블 자동 생성
+                create: 기존 테이블 삭제 후 새로 생성, DROP+CREATE
+                create-drop: create + 애플리케이션 종료 시 생성한 DDL 제거, DROP+CREATE+DROP
+                update: DB 테이블과 엔티티 매핑 정보를 비교해서 변경 사항만 수정
+                validate: DB 테이블과 엔티티 매핑 정보를 비교해서 차이가 있으면 경고를 남기고 애플리케이션 실행하지 않음, DDL 수정하지 않음
+                none: 자동 생성 기능 사용하지 않으려면 선언하지 않거나 해당 옵션을 주면 됨(none은 유효하지 않은 옵션 값)
+
+                주의사항
+                운영 서버에서 create, create-drop, update 같은 DDL 수정 옵션은 절대 사용하면 안됨
+                    반드시 개발 서버나 단계에서만 사용
+                    운영 중인 DB 테이블이나 컬럼 삭제 가능성 있음
+                개발 환경에 따른 추천 전략
+                    초기 단계: create, update
+                    초기화 상태로 자동화된 테스트 진행하는 개발자 환경과 CI 서버: create, create-drop
+                    테스트 서버: update, validate
+                    스테이징 및 운영 서버: validate, none
+
+                JPA는 2.1부터 스키마 자동 생성 기능을 표준으로 지원
+                    <property name="javax.persistence.schema-generation.database.action" value="{value}"/>
+                    {value} -> none, create, drop-and-create, drop
+                    hbm2ddl.auto에서 지원하는 update, validate 옵션 지원하지 않음
+            -->
+            <property name="hibernate.hbm2ddl.auto" value="create"/>
+
+            <!--
+                이름 매핑 전략 변경하기
+                단어와 단어 구분 시,
+                    Java는 관례상 카멜 표기법 사용 -> roleType
+                    DB는 관례상 언더스코어 사용 -> role_type
+                Java 엔티티를 DB 네이밍으로 매핑하려면 @Column.name 속성을 명시적으로 사용해야 함
+                    @Column(name = "role_type")     // 언더스코어
+                    String roleType;                // 카멜 표기법
+                hibernate.ejb.naming_strategy 속성으로 전략 지정
+                    Hibernate에서 기본적으로 org.hibernate.cfg.ImprovedNamingStrategy 제공
+                        DB의 언더스코어, 클래스 및 필드의 카멜 표기법으로 매핑
+
+            -->
+            <property name="hibernate.ejb.naming_strategy" value="org.hibernate.cfg.ImprovedNamingStrategy"/>
+
+            <!--
+                SEQEUNCE 전략에서 allocationSize 속성 관련 최적화 가능하도록 설정
+                미적용 시 과거 방식으로 키 생성 최적화
+                    시퀀스 값을 하나씩 할당받고 애플리케이션에서 allocationSize만큼 사용
+                default는 false인 이유: 과거 버전 호환성을 위함
+            -->
+            <property name="hibernate.id.new_generator_mapping" value="true"/>
+        </properties>
+    </persistence-unit>
+</persistence>
