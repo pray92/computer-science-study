@@ -10,7 +10,7 @@ public class Parent {
     @Id @GeneratedValue
     private Long id;
 
-    @OneToMany(mappedBy = "parent", orphanRemoval = true)
+    @OneToMany(mappedBy = "parent", cascade = CascadeType.ALL, orphanRemoval = true)
     private List<Child> children = new ArrayList<>();
 
     public Long getId() {
@@ -81,8 +81,6 @@ public class Parent {
     }
 
     /**
-     * - 해당 코드를 실행한 SQL 결과문은 DELETE FROM CHILD WHERE ID=?라고 함
-     *   (실제로 코드를 돌려보면 작동하진 않음, em.clear를 했는데도 동작하지 않음)
      * - orphanRemoval = true 옵션을 통해 컬렉션에서 엔티티 제거 시 DB의 데이터도 삭제됨
      * - 고아 객체 제거 기능은 영속성 컨텍스트를 플러시할 때 적용되므로 플러시 시점에 DELETE SQL이 실행리
      */
