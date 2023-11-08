@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="814e2687-1460-42fa-9df2-3135de80c414" name="Changes" comment="자바 ORM 표준 JPA 프로그래밍 - JPA 소개">
-      <change afterPath="$PROJECT_DIR$/010-자바-ORM-표준-JPA-프로그래밍/엔티티-매핑/src/main/java/jpabook/entitymapping/Board.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/010-자바-ORM-표준-JPA-프로그래밍/엔티티-매핑/src/main/java/jpabook/entitymapping/BoardAuto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/010-자바-ORM-표준-JPA-프로그래밍/엔티티-매핑/src/main/java/jpabook/entitymapping/BoardTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/010-자바-ORM-표준-JPA-프로그래밍/엔티티-매핑/src/main/java/jpabook/entitymapping/RoleType.java" afterDir="false" />
+    <list default="true" id="814e2687-1460-42fa-9df2-3135de80c414" name="Changes" comment="Spring - Filter vs. Interceptor vs. AOP">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -117,6 +113,7 @@
       <workItem from="1696302845448" duration="85000" />
       <workItem from="1697141355341" duration="16031000" />
       <workItem from="1697418369390" duration="2663000" />
+      <workItem from="1699309092990" duration="5181000" />
     </task>
     <task id="LOCAL-00001" summary="Database - 정규화와 반정규화">
       <created>1691211209774</created>
@@ -265,7 +262,28 @@
       <option name="project" value="LOCAL" />
       <updated>1697158903255</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Web - 웹 공격 기술(XSS, CSRF, SQL Injection)">
+      <created>1699312224390</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1699312224390</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Web - 웹 공격 기술(XSS, CSRF, SQL Injection)">
+      <created>1699313386467</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1699313386467</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Spring - Filter vs. Interceptor vs. AOP">
+      <created>1699313569966</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1699313569966</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -299,6 +317,8 @@
     <MESSAGE value="Development Methodology - 객체지향과 객체의 정의" />
     <MESSAGE value="Java - String" />
     <MESSAGE value="자바 ORM 표준 JPA 프로그래밍 - JPA 소개" />
-    <option name="LAST_COMMIT_MESSAGE" value="자바 ORM 표준 JPA 프로그래밍 - JPA 소개" />
+    <MESSAGE value="Web - 웹 공격 기술(XSS, CSRF, SQL Injection)" />
+    <MESSAGE value="Spring - Filter vs. Interceptor vs. AOP" />
+    <option name="LAST_COMMIT_MESSAGE" value="Spring - Filter vs. Interceptor vs. AOP" />
   </component>
 </project>
