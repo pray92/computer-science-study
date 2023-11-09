@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="814e2687-1460-42fa-9df2-3135de80c414" name="Changes" comment="Spring - Filter vs. Interceptor vs. AOP">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="814e2687-1460-42fa-9df2-3135de80c414" name="Changes" comment="Java - Time API 등장 이유" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -114,6 +112,7 @@
       <workItem from="1697141355341" duration="16031000" />
       <workItem from="1697418369390" duration="2663000" />
       <workItem from="1699309092990" duration="5181000" />
+      <workItem from="1699478145437" duration="10144000" />
     </task>
     <task id="LOCAL-00001" summary="Database - 정규화와 반정규화">
       <created>1691211209774</created>
@@ -283,7 +282,35 @@
       <option name="project" value="LOCAL" />
       <updated>1699313569966</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="README Update">
+      <created>1699480765565</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1699480765565</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Java - Lambda &amp; Stream &amp; Optional">
+      <created>1699486274379</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1699486274379</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Java - final 사용 이점">
+      <created>1699488121908</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1699488121908</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Java - Time API 등장 이유">
+      <created>1699488774349</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1699488774349</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -319,6 +346,10 @@
     <MESSAGE value="자바 ORM 표준 JPA 프로그래밍 - JPA 소개" />
     <MESSAGE value="Web - 웹 공격 기술(XSS, CSRF, SQL Injection)" />
     <MESSAGE value="Spring - Filter vs. Interceptor vs. AOP" />
-    <option name="LAST_COMMIT_MESSAGE" value="Spring - Filter vs. Interceptor vs. AOP" />
+    <MESSAGE value="README Update" />
+    <MESSAGE value="Java - Lambda &amp; Stream &amp; Optional" />
+    <MESSAGE value="Java - final 사용 이점" />
+    <MESSAGE value="Java - Time API 등장 이유" />
+    <option name="LAST_COMMIT_MESSAGE" value="Java - Time API 등장 이유" />
   </component>
 </project>
