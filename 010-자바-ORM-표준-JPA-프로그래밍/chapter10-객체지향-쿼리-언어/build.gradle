@@ -1,0 +1,27 @@
+plugins {
+	id 'java'
+}
+
+group = 'jpabook'
+version = '0.0.1-SNAPSHOT'
+
+java {
+	sourceCompatibility = 'VERSION_11'
+}
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	implementation 'org.hibernate:hibernate-entitymanager:4.3.10.Final'
+
+	compileOnly 'org.projectlombok:lombok:1.18.26'
+	annotationProcessor 'org.projectlombok:lombok:1.18.26'
+
+	runtimeOnly 'com.h2database:h2:1.4.187'
+}
+
+tasks.named('test') {
+	useJUnitPlatform()
+}

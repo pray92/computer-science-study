@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="814e2687-1460-42fa-9df2-3135de80c414" name="Changes" comment="Java - Time API 등장 이유" />
+    <list default="true" id="814e2687-1460-42fa-9df2-3135de80c414" name="Changes" comment="Java - Serializable" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -113,6 +113,7 @@
       <workItem from="1697418369390" duration="2663000" />
       <workItem from="1699309092990" duration="5181000" />
       <workItem from="1699478145437" duration="10144000" />
+      <workItem from="1699567695387" duration="2514000" />
     </task>
     <task id="LOCAL-00001" summary="Database - 정규화와 반정규화">
       <created>1691211209774</created>
@@ -310,7 +311,14 @@
       <option name="project" value="LOCAL" />
       <updated>1699488774349</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Java - Serializable">
+      <created>1699570207257</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1699570207257</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -350,6 +358,7 @@
     <MESSAGE value="Java - Lambda &amp; Stream &amp; Optional" />
     <MESSAGE value="Java - final 사용 이점" />
     <MESSAGE value="Java - Time API 등장 이유" />
-    <option name="LAST_COMMIT_MESSAGE" value="Java - Time API 등장 이유" />
+    <MESSAGE value="Java - Serializable" />
+    <option name="LAST_COMMIT_MESSAGE" value="Java - Serializable" />
   </component>
 </project>

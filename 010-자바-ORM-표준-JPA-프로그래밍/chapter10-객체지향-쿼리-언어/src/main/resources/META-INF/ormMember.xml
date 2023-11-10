@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<entity-mappings xmlns="http://xmlns.jcp.org/xml/ns/persistence/orm" version="2.1">
+    <named-query name="Member.findByUsername">
+        <!--
+            ![CDATA[]]를 쓰면 그 사이 문장을 그대로 출력, 원래라면 <, >, & 같은 예약문자 처리를 해줘야 함
+            xml 선언 후 persistence.xml에 추가해줘야 함
+        -->
+        <query><![CDATA[
+          select m
+            from Member m
+            where m.username = :username
+        ]]></query>
+    </named-query>
+
+    <named-query name="Member.count">
+        <query>select count(m) from Member m</query>
+    </named-query>
+
+</entity-mappings>
