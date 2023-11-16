@@ -1,9 +1,19 @@
+// QueryDSL - see: https://ittrue.tistory.com/293 [IT is True:티스토리]
+// NOTE: Gradle Version: 6.0
 plugins {
 	id 'java'
+	// QueryDSL: Plugin for generating QueryDSL model files
+	id "com.ewerk.gradle.plugins.querydsl" version "1.0.10"
 }
 
 group = 'jpabook'
 version = '0.0.1-SNAPSHOT'
+
+configurations {
+	compileOnly {
+		extendsFrom annotationProcessor
+	}
+}
 
 java {
 	sourceCompatibility = 'VERSION_11'
@@ -16,12 +26,42 @@ repositories {
 dependencies {
 	implementation 'org.hibernate:hibernate-entitymanager:4.3.10.Final'
 
-	compileOnly 'org.projectlombok:lombok:1.18.26'
 	annotationProcessor 'org.projectlombok:lombok:1.18.26'
+
+	// QueryDSL: 의존성 추가
+	// NOTE: 3버전까지는 com.mysema.querydsl을 사용하다 4버전부터 com.querydsl로 이전
+	// 문제는 해당 설정 값으로 compile 시 com.querydsl 패키지 기반 Q Class를 생성해,
+	// 정상 수행되지 않는 문제가 발생, 따라서 4버전으로 변경
+	implementation "com.querydsl:querydsl-jpa:4.0.0"
+	// see https://ittrue.tistory.com/293
+	annotationProcessor "com.querydsl:querydsl-apt:4.0.0"
+	// see: https://upcurvewave.tistory.com/311
+	// QueryDSL: java.lang.NoClassDefFoundError(javax.annotation.Generated) 대응 코드
+	annotationProcessor 'jakarta.annotation:jakarta.annotation-api:1.3.5'
+	// QueryDSL: java.lang.NoClassDefFoundError(javax.annotation.Entity) 대응 코드
+	annotationProcessor 'jakarta.persistence:jakarta.persistence-api:2.2.3'
 
 	runtimeOnly 'com.h2database:h2:1.4.187'
 }
 
 tasks.named('test') {
 	useJUnitPlatform()
+}
+
+// QueryDSL: QueryDSL 빌드 옵션
+def querydslDir = "$buildDir/generated/querydsl"
+
+querydsl {
+	jpa = true
+	querydslSourcesDir = querydslDir
+}
+sourceSets {
+	main.java.srcDir querydslDir
+}
+configurations {
+	querydsl.extendsFrom compileClasspath
+}
+
+compileQuerydsl {
+	options.annotationProcessorPath = configurations.querydsl
 }

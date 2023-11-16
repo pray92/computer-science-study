@@ -1,14 +1,16 @@
 package jpabook.oopquerylanguage.dto;
 
+import lombok.AllArgsConstructor;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+@NoArgsConstructor
+@AllArgsConstructor
+@Setter
 public class UserDTO {
 
-    private final String username;
-    private final int age;
-
-    public UserDTO(String username, int age) {
-        this.username = username;
-        this.age = age;
-    }
+    private String username;
+    private int age;
 
     @Override
     public String toString() {
