@@ -1,12 +1,14 @@
-package jpabook.oopquerylanguage.typequery;
+package jpabook.oopquerylanguage.jpql;
 
 import jpabook.oopquerylanguage.dto.UserDTO;
 import jpabook.oopquerylanguage.entity.*;
+import org.hibernate.annotations.OnDelete;
+import org.hibernate.annotations.OnDeleteAction;
 
 import javax.persistence.*;
 import java.util.List;
 
-public class TypeQueryEx {
+public class JPQLEx {
 
     static EntityManagerFactory emf = Persistence.createEntityManagerFactory("jpabook");
     static EntityManager em = emf.createEntityManager();
@@ -27,6 +29,7 @@ public class TypeQueryEx {
             variousValueQuery();
             join();
             fetchJoin();
+            bulkCalc();
         } catch (Exception e) {
             tx.rollback();
         } finally {
@@ -34,6 +37,7 @@ public class TypeQueryEx {
         }
         emf.close();
     }
+
 
     private static void insert() {
         Member member1 = new Member("member1", 20);
@@ -174,5 +178,52 @@ public class TypeQueryEx {
             team.getMembers().forEach(member -> System.out.println("member = " + member));
 
         });
+    }
+
+    /**
+     * 벌크 연산
+     * 엔티티를 수정하려면 영속성 컨텍스으의 변경 감지 기능이나 병합을 사용, `삭제하려면 EntityManager.remove()`를 사용
+     * 이 방법으로 수백 개 이상의 엔티티를 하나씩 수정 및 삭제하기엔 시간이 오래 걸림
+     * 이 때 여러 건을 한번에 수정 및 삭제하는 '벌크 연산'을 사용하면 됨
+     */
+    private static void bulkCalc() {
+        System.out.println("JPQLEx.bulkCalc");
+
+        EntityTransaction tx = em.getTransaction();
+
+        tx.begin();
+        // Update
+        em.createQuery("update Product p " +
+                        "set p.price = p.price * 1.1 " +
+                        "where p.stockAmount < :stockAmount")
+                .setParameter("stockAmount", 10)
+                .executeUpdate();
+        tx.commit();
+
+        em.clear();
+
+        System.out.println("Update");
+        em.createQuery("SELECT p FROM Product p", Product.class)
+                .getResultList()
+                .forEach(product -> System.out.println("product = " + product));
+
+        tx = em.getTransaction();
+        tx.begin();
+        // Delete
+        // Order와 연관관계가 있어 cascade로 삭제해줘야 함
+        // JPA의 cascade 방식이 동작하지 않아,
+        // @OnDelete(action = OnDeleteAction.CASCADE) 사용(참고: Product.java)
+        em.createQuery("delete Product p " +
+                        "where p.price < :price")
+                .setParameter("price", 3000)
+                .executeUpdate();
+        tx.commit();
+
+        em.clear();
+
+        System.out.println("Delete");
+        em.createQuery("SELECT p FROM Product p", Product.class)
+                .getResultList()
+                .forEach(product -> System.out.println("product = " + product));
     }
 }

@@ -1,6 +1,6 @@
 # JPQL
 
-![img.png](img.png)
+![img.png](image/img.png)
 
 ## 기본 문법과 쿼리 API
 ```sql
@@ -35,7 +35,7 @@ SELECT m FROM Member as m where m.username = 'Hello'
 
 ## 파라미터 바인딩
 - JDBC는 위치 기준 파라미터 바인딩만 지원하나 `JPQL`은 이름 기준 파라미터 바인딩도 지원함
-- (typequery.TypeQuery `parameter*()` 참고)
+- (jpql.JPQLEx `parameter*()` 참고)
 - `JPQL`을 수정해서 파라미터 바인딩 방식을 사용하지 않고 직접 문자를 더할 경우 SQL Injection 공격 받을 수 있음. 
 - 또한 파라미터 바인딩 방식을 사용하면 파라미터 값이 달라도 같은 쿼리로 인식해서 JPA는 JPQL을 SQL로 파싱한 결과를 재사용해 결과적으로 성능 이점을 가져옴.
 - 그리고 DB도 내부에서 실행한 SQL을 파싱해 사용하는데 같은 쿼리는 파싱한 결과를 재사용 가능
@@ -94,7 +94,7 @@ List<String> usernames = em.createQuery("SELECT username FROM Member m", String.
   ```
 
 ### NEW 명령어
-- (typequery.TypeQuery `variousValueQuery()` 참고)
+- (jpql.JPQLEx `variousValueQuery()` 참고)
 
 ## 페이징 API
 
@@ -300,7 +300,7 @@ FROM MEMBER M INNER JOIN TEAM T ON M.TEAM_ID=T.ID
 ```
 - 시도와 결과
   
-  ![img_1.png](img_1.png)
+  ![img_1.png](image/img_1.png)
 - (typequery.TypeQuery `fetchJoin()` 참고)
 
 ### 컬렉션 페치 조인
@@ -316,7 +316,7 @@ WHERE T.NAME = 'teamA'
 ```
 - 시도와 결과
   
-  ![img_2.png](img_2.png)
+  ![img_2.png](image/img_2.png)
 - (typequery.TypeQuery `fetchJoin()` 참고)
 
 ### 페치 조인과 DISTINCT

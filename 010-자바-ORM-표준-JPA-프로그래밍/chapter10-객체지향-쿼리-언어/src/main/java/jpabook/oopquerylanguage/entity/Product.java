@@ -1,10 +1,15 @@
 package jpabook.oopquerylanguage.entity;
 
+import lombok.ToString;
+import org.hibernate.annotations.OnDelete;
+import org.hibernate.annotations.OnDeleteAction;
+
 import javax.persistence.*;
 import java.util.ArrayList;
 import java.util.List;
 
 @Entity
+@ToString(of = {"name", "price", "stockAmount"})
 public class Product {
 
     @Id @GeneratedValue
@@ -17,6 +22,7 @@ public class Product {
     private int stockAmount;
 
     @OneToMany(mappedBy = "product")
+    @OnDelete(action = OnDeleteAction.CASCADE)  // see: https://kukekyakya.tistory.com/546
     private List<Order> order = new ArrayList<>();
 
     public Product() {
