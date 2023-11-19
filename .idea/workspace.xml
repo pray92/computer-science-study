@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="814e2687-1460-42fa-9df2-3135de80c414" name="Changes" comment="Java - interface의 변수에 자동으로 public static final이 붙는 이유">
-      <change afterPath="$PROJECT_DIR$/010-자바-ORM-표준-JPA-프로그래밍/chapter10-객체지향-쿼리-언어/src/main/java/jpabook/oopquerylanguage/querydsl/QueryDSLEx.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/010-자바-ORM-표준-JPA-프로그래밍/chapter10-객체지향-쿼리-언어/README-QueryDSL.md" beforeDir="false" afterPath="$PROJECT_DIR$/010-자바-ORM-표준-JPA-프로그래밍/chapter10-객체지향-쿼리-언어/README-QueryDSL.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/010-자바-ORM-표준-JPA-프로그래밍/chapter10-객체지향-쿼리-언어/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/010-자바-ORM-표준-JPA-프로그래밍/chapter10-객체지향-쿼리-언어/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/010-자바-ORM-표준-JPA-프로그래밍/chapter10-객체지향-쿼리-언어/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/010-자바-ORM-표준-JPA-프로그래밍/chapter10-객체지향-쿼리-언어/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/004-development-methodology/객체지향 4대 특성/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,19 +78,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="computer-science-study" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="computer-science-study" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -120,6 +105,7 @@
       <workItem from="1699478145437" duration="10144000" />
       <workItem from="1699567695387" duration="2514000" />
       <workItem from="1699911307414" duration="2078000" />
+      <workItem from="1700432257030" duration="1000000" />
     </task>
     <task id="LOCAL-00001" summary="Database - 정규화와 반정규화">
       <created>1691211209774</created>
