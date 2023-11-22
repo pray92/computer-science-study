@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="814e2687-1460-42fa-9df2-3135de80c414" name="Changes" comment="Java - interface의 변수에 자동으로 public static final이 붙는 이유">
-      <change afterPath="$PROJECT_DIR$/004-development-methodology/객체지향 4대 특성/README.md" afterDir="false" />
+    <list default="true" id="814e2687-1460-42fa-9df2-3135de80c414" name="Changes" comment="Development Methodology - 객체지향 4대 특성">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -105,7 +104,9 @@
       <workItem from="1699478145437" duration="10144000" />
       <workItem from="1699567695387" duration="2514000" />
       <workItem from="1699911307414" duration="2078000" />
-      <workItem from="1700432257030" duration="1000000" />
+      <workItem from="1700432257030" duration="1303000" />
+      <workItem from="1700472053644" duration="38000" />
+      <workItem from="1700522629788" duration="535000" />
     </task>
     <task id="LOCAL-00001" summary="Database - 정규화와 반정규화">
       <created>1691211209774</created>
@@ -331,7 +332,14 @@
       <option name="project" value="LOCAL" />
       <updated>1699914745753</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Development Methodology - 객체지향 4대 특성">
+      <created>1700433510451</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1700433510451</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -349,7 +357,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Database - 정규화와 반정규화" />
     <MESSAGE value="README 추가" />
     <MESSAGE value="Java - StringBuffer vs. StringBuilder" />
     <MESSAGE value="Development Methodology - VO, DTO, DAO" />
@@ -374,6 +381,7 @@
     <MESSAGE value="Java - Serializable" />
     <MESSAGE value="Java - interface vs. abstract class" />
     <MESSAGE value="Java - interface의 변수에 자동으로 public static final이 붙는 이유" />
-    <option name="LAST_COMMIT_MESSAGE" value="Java - interface의 변수에 자동으로 public static final이 붙는 이유" />
+    <MESSAGE value="Development Methodology - 객체지향 4대 특성" />
+    <option name="LAST_COMMIT_MESSAGE" value="Development Methodology - 객체지향 4대 특성" />
   </component>
 </project>
