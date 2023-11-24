@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="814e2687-1460-42fa-9df2-3135de80c414" name="Changes" comment="Development Methodology - 객체지향 4대 특성">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="814e2687-1460-42fa-9df2-3135de80c414" name="Changes" comment="Spring - Gradle - Dependencies Property" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -107,6 +105,7 @@
       <workItem from="1700432257030" duration="1303000" />
       <workItem from="1700472053644" duration="38000" />
       <workItem from="1700522629788" duration="535000" />
+      <workItem from="1700692260202" duration="1102000" />
     </task>
     <task id="LOCAL-00001" summary="Database - 정규화와 반정규화">
       <created>1691211209774</created>
@@ -339,7 +338,14 @@
       <option name="project" value="LOCAL" />
       <updated>1700433510451</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Spring - Gradle - Dependencies Property">
+      <created>1700693883616</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1700693883616</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -357,7 +363,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="README 추가" />
     <MESSAGE value="Java - StringBuffer vs. StringBuilder" />
     <MESSAGE value="Development Methodology - VO, DTO, DAO" />
     <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;004-development-methodology/VO, DTO, DAO/README.md" />
@@ -382,6 +387,7 @@
     <MESSAGE value="Java - interface vs. abstract class" />
     <MESSAGE value="Java - interface의 변수에 자동으로 public static final이 붙는 이유" />
     <MESSAGE value="Development Methodology - 객체지향 4대 특성" />
-    <option name="LAST_COMMIT_MESSAGE" value="Development Methodology - 객체지향 4대 특성" />
+    <MESSAGE value="Spring - Gradle - Dependencies Property" />
+    <option name="LAST_COMMIT_MESSAGE" value="Spring - Gradle - Dependencies Property" />
   </component>
 </project>
