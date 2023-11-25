@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="814e2687-1460-42fa-9df2-3135de80c414" name="Changes" comment="Spring - Gradle - Dependencies Property" />
+    <list default="true" id="814e2687-1460-42fa-9df2-3135de80c414" name="Changes" comment="REFACTOR: Infrastructure - Redis란?">
+      <change afterPath="$PROJECT_DIR$/009-infrastructure/Redis/redis.conf/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,6 +59,7 @@
       <recent name="$PROJECT_DIR$/010-자바-ORM-표준-JPA-프로그래밍/chapter06-다양한-연관관계-매핑/src/main/java/jpabook" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/009-infrastructure/Redis/Redis란?" />
       <recent name="$PROJECT_DIR$/010-자바-ORM-표준-JPA-프로그래밍/chapter01-jpa-소개/images" />
       <recent name="$PROJECT_DIR$/003-database" />
       <recent name="$PROJECT_DIR$/003-database/정규화와 반정규화" />
@@ -106,6 +110,8 @@
       <workItem from="1700472053644" duration="38000" />
       <workItem from="1700522629788" duration="535000" />
       <workItem from="1700692260202" duration="1102000" />
+      <workItem from="1700785642036" duration="6399000" />
+      <workItem from="1700802546747" duration="1356000" />
     </task>
     <task id="LOCAL-00001" summary="Database - 정규화와 반정규화">
       <created>1691211209774</created>
@@ -345,7 +351,21 @@
       <option name="project" value="LOCAL" />
       <updated>1700693883616</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Infrastructure - Redis란?">
+      <created>1700791769265</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1700791769266</updated>
+    </task>
+    <task id="LOCAL-00036" summary="REFACTOR: Infrastructure - Redis란?">
+      <created>1700802711770</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1700802711770</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -363,8 +383,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Java - StringBuffer vs. StringBuilder" />
-    <MESSAGE value="Development Methodology - VO, DTO, DAO" />
     <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;004-development-methodology/VO, DTO, DAO/README.md" />
     <MESSAGE value="Java Virtual Machine" />
     <MESSAGE value="Development Methodology - 상속으로 인한 코드 공유의 위험성" />
@@ -388,6 +406,8 @@
     <MESSAGE value="Java - interface의 변수에 자동으로 public static final이 붙는 이유" />
     <MESSAGE value="Development Methodology - 객체지향 4대 특성" />
     <MESSAGE value="Spring - Gradle - Dependencies Property" />
-    <option name="LAST_COMMIT_MESSAGE" value="Spring - Gradle - Dependencies Property" />
+    <MESSAGE value="Infrastructure - Redis란?" />
+    <MESSAGE value="REFACTOR: Infrastructure - Redis란?" />
+    <option name="LAST_COMMIT_MESSAGE" value="REFACTOR: Infrastructure - Redis란?" />
   </component>
 </project>

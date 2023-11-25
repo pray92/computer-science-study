@@ -1,0 +1,42 @@
+plugins {
+	id 'java'
+	id 'war'
+}
+
+group = 'jpabook'
+version = '0.0.1-SNAPSHOT'
+
+repositories {
+	mavenCentral()
+}
+
+configurations {
+	compileOnly {
+		extendsFrom annotationProcessor
+	}
+}
+
+dependencies {
+	implementation 'org.springframework:spring-webmvc:4.1.6.RELEASE'
+	implementation 'org.springframework:spring-spring-orm:4.1.6.RELEASE'
+	implementation 'org.hibernate:hibernate-entitymanager:4.3.10.Final'
+
+	annotationProcessor 'org.projectlombok:lombok:1.18.26'
+
+	compileOnly 'org.apache.tomcat:tomcat-jdbc:7.0.57'
+	compileOnly 'org.slf4j:slf4j-api:1.7.6'
+
+	runtimeOnly 'com.h2database:h2:1.4.187'
+	runtimeOnly 'javax.servlet:jstl:1.2'
+	runtimeOnly 'ch.qos.logback:logback-classic:1.1.1'
+
+	annotationProcessor 'javax.servlet:javax.servlet-api:1.2'
+	annotationProcessor 'javax.servlet.jsp:javax.jsp-api:2.3.1'
+
+	testImplementation 'org.springframework:spring-test:4.1.6.RELEASE'
+	testImplementation 'junit:junit:4.12'
+}
+
+tasks.named('test') {
+	useJUnitPlatform()
+}
