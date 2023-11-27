@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="814e2687-1460-42fa-9df2-3135de80c414" name="Changes" comment="REFACTOR: Infrastructure - Redis란?">
-      <change afterPath="$PROJECT_DIR$/009-infrastructure/Redis/redis.conf/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -112,6 +111,7 @@
       <workItem from="1700692260202" duration="1102000" />
       <workItem from="1700785642036" duration="6399000" />
       <workItem from="1700802546747" duration="1356000" />
+      <workItem from="1701042457106" duration="965000" />
     </task>
     <task id="LOCAL-00001" summary="Database - 정규화와 반정규화">
       <created>1691211209774</created>
