@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="814e2687-1460-42fa-9df2-3135de80c414" name="Changes" comment="REFACTOR: Infrastructure - Redis란?">
+    <list default="true" id="814e2687-1460-42fa-9df2-3135de80c414" name="Changes" comment="Redis - redis.conf">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/009-infrastructure/Redis/redis.conf/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/009-infrastructure/Redis/redis.conf/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +112,8 @@
       <workItem from="1700692260202" duration="1102000" />
       <workItem from="1700785642036" duration="6399000" />
       <workItem from="1700802546747" duration="1356000" />
-      <workItem from="1701042457106" duration="965000" />
+      <workItem from="1701042457106" duration="2508000" />
+      <workItem from="1701127932440" duration="2827000" />
     </task>
     <task id="LOCAL-00001" summary="Database - 정규화와 반정규화">
       <created>1691211209774</created>
@@ -365,7 +367,14 @@
       <option name="project" value="LOCAL" />
       <updated>1700802711770</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Redis - redis.conf">
+      <created>1701045622706</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1701045622706</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -383,7 +392,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;004-development-methodology/VO, DTO, DAO/README.md" />
     <MESSAGE value="Java Virtual Machine" />
     <MESSAGE value="Development Methodology - 상속으로 인한 코드 공유의 위험성" />
     <MESSAGE value="Development Methodology - NPE의 중요성" />
@@ -408,6 +416,7 @@
     <MESSAGE value="Spring - Gradle - Dependencies Property" />
     <MESSAGE value="Infrastructure - Redis란?" />
     <MESSAGE value="REFACTOR: Infrastructure - Redis란?" />
-    <option name="LAST_COMMIT_MESSAGE" value="REFACTOR: Infrastructure - Redis란?" />
+    <MESSAGE value="Redis - redis.conf" />
+    <option name="LAST_COMMIT_MESSAGE" value="Redis - redis.conf" />
   </component>
 </project>
