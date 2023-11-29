@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="814e2687-1460-42fa-9df2-3135de80c414" name="Changes" comment="Redis - redis.conf">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/009-infrastructure/Redis/redis.conf/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/009-infrastructure/Redis/redis.conf/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="814e2687-1460-42fa-9df2-3135de80c414" name="Changes" comment="Redis - redis.conf(2)" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -113,7 +110,7 @@
       <workItem from="1700785642036" duration="6399000" />
       <workItem from="1700802546747" duration="1356000" />
       <workItem from="1701042457106" duration="2508000" />
-      <workItem from="1701127932440" duration="2827000" />
+      <workItem from="1701127932440" duration="2883000" />
     </task>
     <task id="LOCAL-00001" summary="Database - 정규화와 반정규화">
       <created>1691211209774</created>
@@ -374,7 +371,14 @@
       <option name="project" value="LOCAL" />
       <updated>1701045622706</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="Redis - redis.conf(2)">
+      <created>1701131620176</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1701131620176</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -392,7 +396,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Java Virtual Machine" />
     <MESSAGE value="Development Methodology - 상속으로 인한 코드 공유의 위험성" />
     <MESSAGE value="Development Methodology - NPE의 중요성" />
     <MESSAGE value="Web - 웹브라우저에 URL 입력하면 어떤 일이 일어나는가?" />
@@ -417,6 +420,7 @@
     <MESSAGE value="Infrastructure - Redis란?" />
     <MESSAGE value="REFACTOR: Infrastructure - Redis란?" />
     <MESSAGE value="Redis - redis.conf" />
-    <option name="LAST_COMMIT_MESSAGE" value="Redis - redis.conf" />
+    <MESSAGE value="Redis - redis.conf(2)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Redis - redis.conf(2)" />
   </component>
 </project>
