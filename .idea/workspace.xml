@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="814e2687-1460-42fa-9df2-3135de80c414" name="Changes" comment="Redis - redis.conf(2)">
-      <change afterPath="$PROJECT_DIR$/005-programming-language/java/Generics vs. Wildcard Generics/README.md" afterDir="false" />
+    <list default="true" id="814e2687-1460-42fa-9df2-3135de80c414" name="Changes" comment="Generics vs. Wildcard Generics">
+      <change afterPath="$PROJECT_DIR$/002-network/keep-alive/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/002-network/keep-alive/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/002-network/keep-alive/img_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/002-network/keep-alive/img_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/002-network/keep-alive/img_3.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -365,7 +369,14 @@
       <option name="project" value="LOCAL" />
       <updated>1701131620176</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="Generics vs. Wildcard Generics">
+      <created>1701734951524</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1701734951524</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -383,7 +394,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Development Methodology - 상속으로 인한 코드 공유의 위험성" />
     <MESSAGE value="Development Methodology - NPE의 중요성" />
     <MESSAGE value="Web - 웹브라우저에 URL 입력하면 어떤 일이 일어나는가?" />
     <MESSAGE value="Database - Statement vs. PreparedStatement" />
@@ -408,6 +418,7 @@
     <MESSAGE value="REFACTOR: Infrastructure - Redis란?" />
     <MESSAGE value="Redis - redis.conf" />
     <MESSAGE value="Redis - redis.conf(2)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Redis - redis.conf(2)" />
+    <MESSAGE value="Generics vs. Wildcard Generics" />
+    <option name="LAST_COMMIT_MESSAGE" value="Generics vs. Wildcard Generics" />
   </component>
 </project>
