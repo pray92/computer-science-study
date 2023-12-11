@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="814e2687-1460-42fa-9df2-3135de80c414" name="Changes" comment="Generics vs. Wildcard Generics">
-      <change afterPath="$PROJECT_DIR$/002-network/keep-alive/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/002-network/keep-alive/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/002-network/keep-alive/img_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/002-network/keep-alive/img_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/002-network/keep-alive/img_3.png" afterDir="false" />
+    <list default="true" id="814e2687-1460-42fa-9df2-3135de80c414" name="Changes" comment="Web - keep-alive">
+      <change afterPath="$PROJECT_DIR$/007-spring/@EnableRedisHttpSession/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/009-infrastructure/Redis/Keyspace/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,11 +43,11 @@
       <recent name="$PROJECT_DIR$/010-자바-ORM-표준-JPA-프로그래밍/chapter06-다양한-연관관계-매핑/src/main/java/jpabook" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/006-web" />
       <recent name="$PROJECT_DIR$/009-infrastructure/Redis/Redis란?" />
       <recent name="$PROJECT_DIR$/010-자바-ORM-표준-JPA-프로그래밍/chapter01-jpa-소개/images" />
       <recent name="$PROJECT_DIR$/003-database" />
       <recent name="$PROJECT_DIR$/003-database/정규화와 반정규화" />
-      <recent name="$PROJECT_DIR$/003-database/src" />
     </key>
   </component>
   <component name="RunManager">
@@ -376,7 +373,14 @@
       <option name="project" value="LOCAL" />
       <updated>1701734951524</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="Web - keep-alive">
+      <created>1701821655263</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1701821655263</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -394,7 +398,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Development Methodology - NPE의 중요성" />
     <MESSAGE value="Web - 웹브라우저에 URL 입력하면 어떤 일이 일어나는가?" />
     <MESSAGE value="Database - Statement vs. PreparedStatement" />
     <MESSAGE value="Spring - @Transactional" />
@@ -419,6 +422,7 @@
     <MESSAGE value="Redis - redis.conf" />
     <MESSAGE value="Redis - redis.conf(2)" />
     <MESSAGE value="Generics vs. Wildcard Generics" />
-    <option name="LAST_COMMIT_MESSAGE" value="Generics vs. Wildcard Generics" />
+    <MESSAGE value="Web - keep-alive" />
+    <option name="LAST_COMMIT_MESSAGE" value="Web - keep-alive" />
   </component>
 </project>
