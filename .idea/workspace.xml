@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="814e2687-1460-42fa-9df2-3135de80c414" name="Changes" comment="Web - keep-alive">
-      <change afterPath="$PROJECT_DIR$/007-spring/@EnableRedisHttpSession/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/009-infrastructure/Redis/Keyspace/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/005-programming-language/java/JDK Features/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/005-programming-language/java/JDK Features/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/005-programming-language/java/JDK Features/img_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/005-programming-language/java/JDK Features/img_2.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

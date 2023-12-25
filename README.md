@@ -9,6 +9,6 @@
 
 ## 주요 이전 목록
 
-1. JPA (스터디 진행)
-2. Java
+1. Java
+2. Computer Science(Data Structure, Algorithm, OS, Network, Database)
 3. Spring
