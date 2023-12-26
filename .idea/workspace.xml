@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="814e2687-1460-42fa-9df2-3135de80c414" name="Changes" comment="주제별 번호 변경">
-      <change afterPath="$PROJECT_DIR$/007-programming-language/java/ThreadLocal/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/007-programming-language/java/ThreadLocal/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/007-programming-language/java/ThreadLocal/img_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/007-programming-language/java/ThreadLocal/img_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/007-programming-language/java/ThreadLocal/img_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/007-programming-language/java/ThreadLocal/img_4.png" afterDir="false" />
+    <list default="true" id="814e2687-1460-42fa-9df2-3135de80c414" name="Changes" comment="Java - ThreadLocal">
+      <change afterPath="$PROJECT_DIR$/007-programming-language/java/equals()와 hashCode()/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -391,7 +386,14 @@
       <option name="project" value="LOCAL" />
       <updated>1703488098594</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="Java - ThreadLocal">
+      <created>1703563523258</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1703563523258</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -409,7 +411,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Spring - @Transactional" />
     <MESSAGE value="Spring - Spring Framework vs. Spring Boot" />
     <MESSAGE value="Database - ConnectionPool" />
     <MESSAGE value="Development Methodology - 객체지향과 객체의 정의" />
@@ -434,6 +435,7 @@
     <MESSAGE value="Web - keep-alive" />
     <MESSAGE value="Java - JDK 버전 별 주요 Feature" />
     <MESSAGE value="주제별 번호 변경" />
-    <option name="LAST_COMMIT_MESSAGE" value="주제별 번호 변경" />
+    <MESSAGE value="Java - ThreadLocal" />
+    <option name="LAST_COMMIT_MESSAGE" value="Java - ThreadLocal" />
   </component>
 </project>
