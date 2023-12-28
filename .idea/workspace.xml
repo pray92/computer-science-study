@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="814e2687-1460-42fa-9df2-3135de80c414" name="Changes" comment="Java - Hashtable vs. HashMap vs. ConcurrentHashMap">
-      <change afterPath="$PROJECT_DIR$/001-data-structure/01. 배열  vs. 링크드 리스트/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/001-data-structure/01. 배열  vs. 링크드 리스트/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/001-data-structure/01. 배열  vs. 링크드 리스트/img_1.png" afterDir="false" />
+    <list default="true" id="814e2687-1460-42fa-9df2-3135de80c414" name="Changes" comment="Data Structure - 배열 vs. 링크드 리스트">
+      <change afterPath="$PROJECT_DIR$/001-data-structure/02. 트리/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/001-data-structure/02. 트리/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/001-data-structure/02. 트리/img_1.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/001-data-structure/01. 배열  vs. 링크드 리스트/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/001-data-structure/01. 배열  vs. 링크드 리스트/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -424,7 +425,14 @@
       <option name="project" value="LOCAL" />
       <updated>1703654942969</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="Data Structure - 배열 vs. 링크드 리스트">
+      <created>1703682149005</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1703682149005</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -442,7 +450,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Java - String" />
     <MESSAGE value="자바 ORM 표준 JPA 프로그래밍 - JPA 소개" />
     <MESSAGE value="Web - 웹 공격 기술(XSS, CSRF, SQL Injection)" />
     <MESSAGE value="Spring - Filter vs. Interceptor vs. AOP" />
@@ -467,6 +474,7 @@
     <MESSAGE value="Java - equals()와 hashCode()" />
     <MESSAGE value="Java - io vs. nio vs. nio2" />
     <MESSAGE value="Java - Hashtable vs. HashMap vs. ConcurrentHashMap" />
-    <option name="LAST_COMMIT_MESSAGE" value="Java - Hashtable vs. HashMap vs. ConcurrentHashMap" />
+    <MESSAGE value="Data Structure - 배열 vs. 링크드 리스트" />
+    <option name="LAST_COMMIT_MESSAGE" value="Data Structure - 배열 vs. 링크드 리스트" />
   </component>
 </project>
