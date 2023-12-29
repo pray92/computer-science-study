@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="814e2687-1460-42fa-9df2-3135de80c414" name="Changes" comment="Algorithm - 기수 정렬">
-      <change afterPath="$PROJECT_DIR$/003-operating-system/01. 운영체제의 역할/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/003-operating-system/01. 운영체제의 역할/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/003-operating-system/01. 운영체제의 역할/img_1.png" afterDir="false" />
+    <list default="true" id="814e2687-1460-42fa-9df2-3135de80c414" name="Changes" comment="Operating System - 운영체제의 역할">
+      <change afterPath="$PROJECT_DIR$/003-operating-system/02. 시스템 콜/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/003-operating-system/02. 시스템 콜/img.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -108,13 +107,6 @@
       <workItem from="1701042457106" duration="2508000" />
       <workItem from="1701127932440" duration="2883000" />
       <workItem from="1701563944926" duration="1433000" />
-    </task>
-    <task id="LOCAL-00013" summary="Web - 웹브라우저에 URL 입력하면 어떤 일이 일어나는가?">
-      <created>1692669009978</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1692669009978</updated>
     </task>
     <task id="LOCAL-00014" summary="Database - Statement vs. PreparedStatement">
       <created>1693109558991</created>
@@ -452,7 +444,14 @@
       <option name="project" value="LOCAL" />
       <updated>1703833123984</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="Operating System - 운영체제의 역할">
+      <created>1703845734374</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1703845734374</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -470,7 +469,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Redis - redis.conf" />
     <MESSAGE value="Redis - redis.conf(2)" />
     <MESSAGE value="Generics vs. Wildcard Generics" />
     <MESSAGE value="Web - keep-alive" />
@@ -495,6 +493,7 @@
     <MESSAGE value="Algorithm - 병합 정렬" />
     <MESSAGE value="Algorithm - 계수 정렬" />
     <MESSAGE value="Algorithm - 기수 정렬" />
-    <option name="LAST_COMMIT_MESSAGE" value="Algorithm - 기수 정렬" />
+    <MESSAGE value="Operating System - 운영체제의 역할" />
+    <option name="LAST_COMMIT_MESSAGE" value="Operating System - 운영체제의 역할" />
   </component>
 </project>
