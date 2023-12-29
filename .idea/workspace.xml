@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="814e2687-1460-42fa-9df2-3135de80c414" name="Changes" comment="Algorithm - 계수 정렬">
-      <change afterPath="$PROJECT_DIR$/002-algorithm/08.  기수 정렬/README.md" afterDir="false" />
+    <list default="true" id="814e2687-1460-42fa-9df2-3135de80c414" name="Changes" comment="Algorithm - 기수 정렬">
+      <change afterPath="$PROJECT_DIR$/003-operating-system/01. 운영체제의 역할/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/003-operating-system/01. 운영체제의 역할/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/003-operating-system/01. 운영체제의 역할/img_1.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -106,13 +108,6 @@
       <workItem from="1701042457106" duration="2508000" />
       <workItem from="1701127932440" duration="2883000" />
       <workItem from="1701563944926" duration="1433000" />
-    </task>
-    <task id="LOCAL-00012" summary="Development Methodology - NPE의 중요성">
-      <created>1692666032974</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1692666032974</updated>
     </task>
     <task id="LOCAL-00013" summary="Web - 웹브라우저에 URL 입력하면 어떤 일이 일어나는가?">
       <created>1692669009978</created>
@@ -450,7 +445,14 @@
       <option name="project" value="LOCAL" />
       <updated>1703831402631</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="Algorithm - 기수 정렬">
+      <created>1703833123984</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1703833123984</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -468,7 +470,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="REFACTOR: Infrastructure - Redis란?" />
     <MESSAGE value="Redis - redis.conf" />
     <MESSAGE value="Redis - redis.conf(2)" />
     <MESSAGE value="Generics vs. Wildcard Generics" />
@@ -493,6 +494,7 @@
     <MESSAGE value="Algorithm - 퀵 정렬" />
     <MESSAGE value="Algorithm - 병합 정렬" />
     <MESSAGE value="Algorithm - 계수 정렬" />
-    <option name="LAST_COMMIT_MESSAGE" value="Algorithm - 계수 정렬" />
+    <MESSAGE value="Algorithm - 기수 정렬" />
+    <option name="LAST_COMMIT_MESSAGE" value="Algorithm - 기수 정렬" />
   </component>
 </project>
