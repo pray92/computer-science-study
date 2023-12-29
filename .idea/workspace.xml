@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="814e2687-1460-42fa-9df2-3135de80c414" name="Changes" comment="Algorithm - 힙 정렬">
-      <change afterPath="$PROJECT_DIR$/002-algorithm/05. 퀵 정렬/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/002-algorithm/05. 퀵 정렬/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/002-algorithm/05. 퀵 정렬/img_1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="814e2687-1460-42fa-9df2-3135de80c414" name="Changes" comment="Algorithm - 병합 정렬" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -108,20 +103,6 @@
       <workItem from="1701042457106" duration="2508000" />
       <workItem from="1701127932440" duration="2883000" />
       <workItem from="1701563944926" duration="1433000" />
-    </task>
-    <task id="LOCAL-00008" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;004-development-methodology/VO, DTO, DAO/README.md">
-      <created>1692429509382</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1692429509382</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Java Virtual Machine">
-      <created>1692444725770</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1692444725770</updated>
     </task>
     <task id="LOCAL-00010" summary="Development Methodology - 상속으로 인한 코드 공유의 위험성">
       <created>1692579063827</created>
@@ -452,7 +433,21 @@
       <option name="project" value="LOCAL" />
       <updated>1703815809959</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="Algorithm - 퀵 정렬">
+      <created>1703818137657</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1703818137657</updated>
+    </task>
+    <task id="LOCAL-00058" summary="Algorithm - 병합 정렬">
+      <created>1703828982001</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1703828982001</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -470,8 +465,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Development Methodology - 객체지향 4대 특성" />
-    <MESSAGE value="Spring - Gradle - Dependencies Property" />
     <MESSAGE value="Infrastructure - Redis란?" />
     <MESSAGE value="REFACTOR: Infrastructure - Redis란?" />
     <MESSAGE value="Redis - redis.conf" />
@@ -495,6 +488,8 @@
     <MESSAGE value="Algorithm - 선택 정렬" />
     <MESSAGE value="Algorithm - 삽입 정렬" />
     <MESSAGE value="Algorithm - 힙 정렬" />
-    <option name="LAST_COMMIT_MESSAGE" value="Algorithm - 힙 정렬" />
+    <MESSAGE value="Algorithm - 퀵 정렬" />
+    <MESSAGE value="Algorithm - 병합 정렬" />
+    <option name="LAST_COMMIT_MESSAGE" value="Algorithm - 병합 정렬" />
   </component>
 </project>
