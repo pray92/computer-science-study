@@ -4,17 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="814e2687-1460-42fa-9df2-3135de80c414" name="Changes" comment="Data Structure - 힙 트리">
-      <change afterPath="$PROJECT_DIR$/001-data-structure/07. 그래프/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/001-data-structure/07. 그래프/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/001-data-structure/07. 그래프/img_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/001-data-structure/07. 그래프/img_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/001-data-structure/07. 그래프/img_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/001-data-structure/07. 그래프/img_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/001-data-structure/07. 그래프/img_5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/001-data-structure/07. 그래프/img_6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/001-data-structure/07. 그래프/img_7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/001-data-structure/07. 그래프/img_8.png" afterDir="false" />
+    <list default="true" id="814e2687-1460-42fa-9df2-3135de80c414" name="Changes" comment="Data Structure - 그래프">
+      <change afterPath="$PROJECT_DIR$/002-algorithm/01. 거품 정렬/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -115,13 +106,6 @@
       <workItem from="1701042457106" duration="2508000" />
       <workItem from="1701127932440" duration="2883000" />
       <workItem from="1701563944926" duration="1433000" />
-    </task>
-    <task id="LOCAL-00003" summary="README 추가">
-      <created>1691212164935</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1691212164935</updated>
     </task>
     <task id="LOCAL-00004" summary="README 추가">
       <created>1691213296140</created>
@@ -459,7 +443,14 @@
       <option name="project" value="LOCAL" />
       <updated>1703761878706</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="Data Structure - 그래프">
+      <created>1703766094346</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1703766094347</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -477,7 +468,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Java - final 사용 이점" />
     <MESSAGE value="Java - Time API 등장 이유" />
     <MESSAGE value="Java - Serializable" />
     <MESSAGE value="Java - interface vs. abstract class" />
@@ -502,6 +492,7 @@
     <MESSAGE value="Data Structure - 이진 탐색 트리(삽입, 검색, 삭제)" />
     <MESSAGE value="Data Structure - Red-black Tree" />
     <MESSAGE value="Data Structure - 힙 트리" />
-    <option name="LAST_COMMIT_MESSAGE" value="Data Structure - 힙 트리" />
+    <MESSAGE value="Data Structure - 그래프" />
+    <option name="LAST_COMMIT_MESSAGE" value="Data Structure - 그래프" />
   </component>
 </project>
