@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="814e2687-1460-42fa-9df2-3135de80c414" name="Changes" comment="Algorithm - 병합 정렬">
-      <change afterPath="$PROJECT_DIR$/002-algorithm/07. 계수 정렬/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/002-algorithm/07. 계수 정렬/img.png" afterDir="false" />
+    <list default="true" id="814e2687-1460-42fa-9df2-3135de80c414" name="Changes" comment="Algorithm - 계수 정렬">
+      <change afterPath="$PROJECT_DIR$/002-algorithm/08.  기수 정렬/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -107,13 +106,6 @@
       <workItem from="1701042457106" duration="2508000" />
       <workItem from="1701127932440" duration="2883000" />
       <workItem from="1701563944926" duration="1433000" />
-    </task>
-    <task id="LOCAL-00011" summary="Development Methodology - NPE의 중요성">
-      <created>1692666019884</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1692666019884</updated>
     </task>
     <task id="LOCAL-00012" summary="Development Methodology - NPE의 중요성">
       <created>1692666032974</created>
@@ -451,7 +443,14 @@
       <option name="project" value="LOCAL" />
       <updated>1703829096997</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="Algorithm - 계수 정렬">
+      <created>1703831402631</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1703831402631</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -469,7 +468,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Infrastructure - Redis란?" />
     <MESSAGE value="REFACTOR: Infrastructure - Redis란?" />
     <MESSAGE value="Redis - redis.conf" />
     <MESSAGE value="Redis - redis.conf(2)" />
@@ -494,6 +492,7 @@
     <MESSAGE value="Algorithm - 힙 정렬" />
     <MESSAGE value="Algorithm - 퀵 정렬" />
     <MESSAGE value="Algorithm - 병합 정렬" />
-    <option name="LAST_COMMIT_MESSAGE" value="Algorithm - 병합 정렬" />
+    <MESSAGE value="Algorithm - 계수 정렬" />
+    <option name="LAST_COMMIT_MESSAGE" value="Algorithm - 계수 정렬" />
   </component>
 </project>
