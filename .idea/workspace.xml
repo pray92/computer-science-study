@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="814e2687-1460-42fa-9df2-3135de80c414" name="Changes" comment="Algorithm - 병합 정렬" />
+    <list default="true" id="814e2687-1460-42fa-9df2-3135de80c414" name="Changes" comment="Algorithm - 병합 정렬">
+      <change afterPath="$PROJECT_DIR$/002-algorithm/07. 계수 정렬/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/002-algorithm/07. 계수 정렬/img.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -103,13 +107,6 @@
       <workItem from="1701042457106" duration="2508000" />
       <workItem from="1701127932440" duration="2883000" />
       <workItem from="1701563944926" duration="1433000" />
-    </task>
-    <task id="LOCAL-00010" summary="Development Methodology - 상속으로 인한 코드 공유의 위험성">
-      <created>1692579063827</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1692579063828</updated>
     </task>
     <task id="LOCAL-00011" summary="Development Methodology - NPE의 중요성">
       <created>1692666019884</created>
@@ -447,7 +444,14 @@
       <option name="project" value="LOCAL" />
       <updated>1703828982001</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="Algorithm - 병합 정렬">
+      <created>1703829096997</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1703829096997</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
