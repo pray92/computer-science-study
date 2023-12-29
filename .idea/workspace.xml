@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="814e2687-1460-42fa-9df2-3135de80c414" name="Changes" comment="Operating System - 운영체제의 역할">
-      <change afterPath="$PROJECT_DIR$/003-operating-system/02. 시스템 콜/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/003-operating-system/02. 시스템 콜/img.png" afterDir="false" />
+    <list default="true" id="814e2687-1460-42fa-9df2-3135de80c414" name="Changes" comment="Operating System - 시스템 콜">
+      <change afterPath="$PROJECT_DIR$/003-operating-system/03. 사용자 모드와 커널 모드/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/003-operating-system/03. 사용자 모드와 커널 모드/img.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -107,13 +107,6 @@
       <workItem from="1701042457106" duration="2508000" />
       <workItem from="1701127932440" duration="2883000" />
       <workItem from="1701563944926" duration="1433000" />
-    </task>
-    <task id="LOCAL-00014" summary="Database - Statement vs. PreparedStatement">
-      <created>1693109558991</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1693109558991</updated>
     </task>
     <task id="LOCAL-00015" summary="Spring - @Transactional">
       <created>1693283412185</created>
@@ -451,7 +444,14 @@
       <option name="project" value="LOCAL" />
       <updated>1703845734374</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="Operating System - 시스템 콜">
+      <created>1703846465737</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1703846465738</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -469,7 +469,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Redis - redis.conf(2)" />
     <MESSAGE value="Generics vs. Wildcard Generics" />
     <MESSAGE value="Web - keep-alive" />
     <MESSAGE value="Java - JDK 버전 별 주요 Feature" />
@@ -494,6 +493,7 @@
     <MESSAGE value="Algorithm - 계수 정렬" />
     <MESSAGE value="Algorithm - 기수 정렬" />
     <MESSAGE value="Operating System - 운영체제의 역할" />
-    <option name="LAST_COMMIT_MESSAGE" value="Operating System - 운영체제의 역할" />
+    <MESSAGE value="Operating System - 시스템 콜" />
+    <option name="LAST_COMMIT_MESSAGE" value="Operating System - 시스템 콜" />
   </component>
 </project>
