@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="814e2687-1460-42fa-9df2-3135de80c414" name="Changes" comment="Operating System - 인터럽트">
-      <change afterPath="$PROJECT_DIR$/003-operating-system/06. 프로세스 구조/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/003-operating-system/06. 프로세스 구조/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/003-operating-system/06. 프로세스 구조/img_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/003-operating-system/06. 프로세스 구조/img_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/003-operating-system/06. 프로세스 구조/img_3.png" afterDir="false" />
+    <list default="true" id="814e2687-1460-42fa-9df2-3135de80c414" name="Changes" comment="Operating System - 프로세스 구조">
+      <change afterPath="$PROJECT_DIR$/003-operating-system/07. Context Switching/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/003-operating-system/07. Context Switching/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/003-operating-system/07. Context Switching/img_1.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -110,13 +108,6 @@
       <workItem from="1701042457106" duration="2508000" />
       <workItem from="1701127932440" duration="2883000" />
       <workItem from="1701563944926" duration="1433000" />
-    </task>
-    <task id="LOCAL-00018" summary="Database - ConnectionPool">
-      <created>1696233772060</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1696233772060</updated>
     </task>
     <task id="LOCAL-00019" summary="Development Methodology - 객체지향과 객체의 정의">
       <created>1696236749042</created>
@@ -454,7 +445,14 @@
       <option name="project" value="LOCAL" />
       <updated>1703996950867</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="Operating System - 프로세스 구조">
+      <created>1704003058363</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1704003058363</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -472,7 +470,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="주제별 번호 변경" />
     <MESSAGE value="Java - ThreadLocal" />
     <MESSAGE value="Java - equals()와 hashCode()" />
     <MESSAGE value="Java - io vs. nio vs. nio2" />
@@ -497,6 +494,7 @@
     <MESSAGE value="Operating System - 사용자 모드와 커널 모드" />
     <MESSAGE value="Operating System - 스케쥴링 알고리즘" />
     <MESSAGE value="Operating System - 인터럽트" />
-    <option name="LAST_COMMIT_MESSAGE" value="Operating System - 인터럽트" />
+    <MESSAGE value="Operating System - 프로세스 구조" />
+    <option name="LAST_COMMIT_MESSAGE" value="Operating System - 프로세스 구조" />
   </component>
 </project>
