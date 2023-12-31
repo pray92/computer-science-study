@@ -4,21 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="814e2687-1460-42fa-9df2-3135de80c414" name="Changes" comment="Operating System - Thread">
-      <change afterPath="$PROJECT_DIR$/003-operating-system/10. 가상 메모리/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/003-operating-system/10. 가상 메모리/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/003-operating-system/10. 가상 메모리/img_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/003-operating-system/10. 가상 메모리/img_10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/003-operating-system/10. 가상 메모리/img_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/003-operating-system/10. 가상 메모리/img_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/003-operating-system/10. 가상 메모리/img_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/003-operating-system/10. 가상 메모리/img_5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/003-operating-system/10. 가상 메모리/img_6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/003-operating-system/10. 가상 메모리/img_7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/003-operating-system/10. 가상 메모리/img_8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/003-operating-system/10. 가상 메모리/img_9.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="814e2687-1460-42fa-9df2-3135de80c414" name="Changes" comment="Operating System - 가상 메모리" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -117,13 +103,6 @@
       <workItem from="1701042457106" duration="2508000" />
       <workItem from="1701127932440" duration="2883000" />
       <workItem from="1701563944926" duration="1433000" />
-    </task>
-    <task id="LOCAL-00022" summary="Web - 웹 공격 기술(XSS, CSRF, SQL Injection)">
-      <created>1699312224390</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1699312224390</updated>
     </task>
     <task id="LOCAL-00023" summary="Web - 웹 공격 기술(XSS, CSRF, SQL Injection)">
       <created>1699313386467</created>
@@ -461,7 +440,14 @@
       <option name="project" value="LOCAL" />
       <updated>1704022411734</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="Operating System - 가상 메모리">
+      <created>1704029054959</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1704029054959</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -479,7 +465,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Java - Hashtable vs. HashMap vs. ConcurrentHashMap" />
     <MESSAGE value="Data Structure - 배열 vs. 링크드 리스트" />
     <MESSAGE value="Data Structure - 트리" />
     <MESSAGE value="Data Structure - 이진트리" />
@@ -504,6 +489,7 @@
     <MESSAGE value="Operating System - Context Switching" />
     <MESSAGE value="Operating System - IPC 기법" />
     <MESSAGE value="Operating System - Thread" />
-    <option name="LAST_COMMIT_MESSAGE" value="Operating System - Thread" />
+    <MESSAGE value="Operating System - 가상 메모리" />
+    <option name="LAST_COMMIT_MESSAGE" value="Operating System - 가상 메모리" />
   </component>
 </project>
