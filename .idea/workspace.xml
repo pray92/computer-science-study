@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="814e2687-1460-42fa-9df2-3135de80c414" name="Changes" comment="Operating System - 사용자 모드와 커널 모드">
-      <change afterPath="$PROJECT_DIR$/003-operating-system/04. CPU 스케쥴링/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/003-operating-system/04. CPU 스케쥴링/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/003-operating-system/04. CPU 스케쥴링/img_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/003-operating-system/04. CPU 스케쥴링/img_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/003-operating-system/04. CPU 스케쥴링/img_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/003-operating-system/04. CPU 스케쥴링/img_4.png" afterDir="false" />
+    <list default="true" id="814e2687-1460-42fa-9df2-3135de80c414" name="Changes" comment="Operating System - 스케쥴링 알고리즘">
+      <change afterPath="$PROJECT_DIR$/003-operating-system/05. 인터럽트/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/003-operating-system/05. 인터럽트/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/003-operating-system/05. 인터럽트/img_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/003-operating-system/05. 인터럽트/img_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/003-operating-system/05. 인터럽트/img_3.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -111,13 +110,6 @@
       <workItem from="1701042457106" duration="2508000" />
       <workItem from="1701127932440" duration="2883000" />
       <workItem from="1701563944926" duration="1433000" />
-    </task>
-    <task id="LOCAL-00016" summary="Spring - Spring Framework vs. Spring Boot">
-      <created>1695267670814</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1695267670815</updated>
     </task>
     <task id="LOCAL-00017" summary="Database - ConnectionPool">
       <created>1696233487276</created>
@@ -455,7 +447,14 @@
       <option name="project" value="LOCAL" />
       <updated>1703847602709</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="Operating System - 스케쥴링 알고리즘">
+      <created>1703851752143</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1703851752143</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -473,7 +472,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Web - keep-alive" />
     <MESSAGE value="Java - JDK 버전 별 주요 Feature" />
     <MESSAGE value="주제별 번호 변경" />
     <MESSAGE value="Java - ThreadLocal" />
@@ -498,6 +496,7 @@
     <MESSAGE value="Operating System - 운영체제의 역할" />
     <MESSAGE value="Operating System - 시스템 콜" />
     <MESSAGE value="Operating System - 사용자 모드와 커널 모드" />
-    <option name="LAST_COMMIT_MESSAGE" value="Operating System - 사용자 모드와 커널 모드" />
+    <MESSAGE value="Operating System - 스케쥴링 알고리즘" />
+    <option name="LAST_COMMIT_MESSAGE" value="Operating System - 스케쥴링 알고리즘" />
   </component>
 </project>
