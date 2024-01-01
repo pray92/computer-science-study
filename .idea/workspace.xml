@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="814e2687-1460-42fa-9df2-3135de80c414" name="Changes" comment="web - HTTP">
-      <change afterPath="$PROJECT_DIR$/008-web/12. CORS/README.md" afterDir="false" />
+    <list default="true" id="814e2687-1460-42fa-9df2-3135de80c414" name="Changes" comment="web - CORS">
+      <change afterPath="$PROJECT_DIR$/008-web/10. 대칭키와 비대칭키/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -106,13 +106,6 @@
       <workItem from="1701042457106" duration="2508000" />
       <workItem from="1701127932440" duration="2883000" />
       <workItem from="1701563944926" duration="1433000" />
-    </task>
-    <task id="LOCAL-00040" summary="Web - keep-alive">
-      <created>1701821655263</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1701821655263</updated>
     </task>
     <task id="LOCAL-00041" summary="Java - JDK 버전 별 주요 Feature">
       <created>1703488098594</created>
@@ -450,7 +443,14 @@
       <option name="project" value="LOCAL" />
       <updated>1704106940584</updated>
     </task>
-    <option name="localTasksCounter" value="89" />
+    <task id="LOCAL-00089" summary="web - CORS">
+      <created>1704107912969</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1704107912969</updated>
+    </task>
+    <option name="localTasksCounter" value="90" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -468,7 +468,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Operating System - 스케쥴링 알고리즘" />
     <MESSAGE value="Operating System - 인터럽트" />
     <MESSAGE value="Operating System - 프로세스 구조" />
     <MESSAGE value="Operating System - Context Switching" />
@@ -493,6 +492,7 @@
     <MESSAGE value="web - HTTP Status Code" />
     <MESSAGE value="web - HTTP 메서드" />
     <MESSAGE value="web - HTTP" />
-    <option name="LAST_COMMIT_MESSAGE" value="web - HTTP" />
+    <MESSAGE value="web - CORS" />
+    <option name="LAST_COMMIT_MESSAGE" value="web - CORS" />
   </component>
 </project>
