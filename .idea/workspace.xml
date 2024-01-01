@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="814e2687-1460-42fa-9df2-3135de80c414" name="Changes" comment="spring - JPA vs. MyBatis">
-      <change afterPath="$PROJECT_DIR$/008-web/05. REST API/README.md" afterDir="false" />
+    <list default="true" id="814e2687-1460-42fa-9df2-3135de80c414" name="Changes" comment="web - REST API">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -106,13 +105,6 @@
       <workItem from="1701042457106" duration="2508000" />
       <workItem from="1701127932440" duration="2883000" />
       <workItem from="1701563944926" duration="1433000" />
-    </task>
-    <task id="LOCAL-00036" summary="REFACTOR: Infrastructure - Redis란?">
-      <created>1700802711770</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1700802711770</updated>
     </task>
     <task id="LOCAL-00037" summary="Redis - redis.conf">
       <created>1701045622706</created>
@@ -450,7 +442,14 @@
       <option name="project" value="LOCAL" />
       <updated>1704090980686</updated>
     </task>
-    <option name="localTasksCounter" value="85" />
+    <task id="LOCAL-00085" summary="web - REST API">
+      <created>1704092288916</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1704092288916</updated>
+    </task>
+    <option name="localTasksCounter" value="86" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -468,7 +467,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Algorithm - 기수 정렬" />
     <MESSAGE value="Operating System - 운영체제의 역할" />
     <MESSAGE value="Operating System - 시스템 콜" />
     <MESSAGE value="Operating System - 사용자 모드와 커널 모드" />
@@ -493,6 +491,7 @@
     <MESSAGE value="spring - Request 처리 방식" />
     <MESSAGE value="spring - Java Singleton vs. Spring Singleton" />
     <MESSAGE value="spring - JPA vs. MyBatis" />
-    <option name="LAST_COMMIT_MESSAGE" value="spring - JPA vs. MyBatis" />
+    <MESSAGE value="web - REST API" />
+    <option name="LAST_COMMIT_MESSAGE" value="web - REST API" />
   </component>
 </project>
