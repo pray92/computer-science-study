@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="814e2687-1460-42fa-9df2-3135de80c414" name="Changes" comment="Development Methodology - 객체지향 5대 설계 원칙">
-      <change afterPath="$PROJECT_DIR$/005-database/04. Primary Key와 Index/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/005-database/04. Primary Key와 Index/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/005-database/04. Primary Key와 Index/img_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/005-database/04. Primary Key와 Index/img_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/005-database/04. Primary Key와 Index/img_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/005-database/04. Primary Key와 Index/img_4.png" afterDir="false" />
+    <list default="true" id="814e2687-1460-42fa-9df2-3135de80c414" name="Changes" comment="Database - Primary Key">
+      <change afterPath="$PROJECT_DIR$/005-database/07. Isolation Level/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -473,7 +468,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Algorithm - 거품 정렬" />
     <MESSAGE value="Algorithm - 선택 정렬" />
     <MESSAGE value="Algorithm - 삽입 정렬" />
     <MESSAGE value="Algorithm - 힙 정렬" />
@@ -498,6 +492,7 @@
     <MESSAGE value="Network: 3-way handshaking과 4-way handshaking" />
     <MESSAGE value="Development Methodology - 함수형 프로그래밍" />
     <MESSAGE value="Development Methodology - 객체지향 5대 설계 원칙" />
-    <option name="LAST_COMMIT_MESSAGE" value="Development Methodology - 객체지향 5대 설계 원칙" />
+    <MESSAGE value="Database - Primary Key" />
+    <option name="LAST_COMMIT_MESSAGE" value="Database - Primary Key" />
   </component>
 </project>
