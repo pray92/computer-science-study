@@ -1,7 +1,7 @@
 # Redis란?
 
 ## 요약
-- edis는 Key-value 구조 비정형 데이터 저장 및 관리하기 위한 비관계형 in-memory DBMS이다
+- Redis는 Key-value 구조 비정형 데이터 저장 및 관리하기 위한 비관계형 in-memory DBMS이다
 - Redis는 single thread 환경으로 동작하므로 큰 데이터가 오면, 해당 데이터 처리가 끝날 때까지 다른 요청은 대기해야 한다
 - 운영 모드로는 대표적으로 싱글 인스턴스로 동작하는 `Standardalone`, Sentinel 노드가 지속적으로 Master/Slave 노드를 모니터링하는 `Sentinel` 그리고 데이터를 샤딩해서 분산 관리 및 이를 master/slave로 관리하는 `Cluster` 모드가 존재한다
 ---
