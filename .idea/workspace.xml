@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="814e2687-1460-42fa-9df2-3135de80c414" name="Changes" comment="spring - Java Singleton vs. Spring Singleton" />
+    <list default="true" id="814e2687-1460-42fa-9df2-3135de80c414" name="Changes" comment="spring - JPA vs. MyBatis">
+      <change afterPath="$PROJECT_DIR$/008-web/05. REST API/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -103,13 +106,6 @@
       <workItem from="1701042457106" duration="2508000" />
       <workItem from="1701127932440" duration="2883000" />
       <workItem from="1701563944926" duration="1433000" />
-    </task>
-    <task id="LOCAL-00035" summary="Infrastructure - Redis란?">
-      <created>1700791769265</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1700791769266</updated>
     </task>
     <task id="LOCAL-00036" summary="REFACTOR: Infrastructure - Redis란?">
       <created>1700802711770</created>
@@ -447,7 +443,14 @@
       <option name="project" value="LOCAL" />
       <updated>1704090669510</updated>
     </task>
-    <option name="localTasksCounter" value="84" />
+    <task id="LOCAL-00084" summary="spring - JPA vs. MyBatis">
+      <created>1704090980686</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1704090980686</updated>
+    </task>
+    <option name="localTasksCounter" value="85" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -465,7 +468,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Algorithm - 계수 정렬" />
     <MESSAGE value="Algorithm - 기수 정렬" />
     <MESSAGE value="Operating System - 운영체제의 역할" />
     <MESSAGE value="Operating System - 시스템 콜" />
@@ -490,6 +492,7 @@
     <MESSAGE value="REFACTOR: 넘버링 수정" />
     <MESSAGE value="spring - Request 처리 방식" />
     <MESSAGE value="spring - Java Singleton vs. Spring Singleton" />
-    <option name="LAST_COMMIT_MESSAGE" value="spring - Java Singleton vs. Spring Singleton" />
+    <MESSAGE value="spring - JPA vs. MyBatis" />
+    <option name="LAST_COMMIT_MESSAGE" value="spring - JPA vs. MyBatis" />
   </component>
 </project>
