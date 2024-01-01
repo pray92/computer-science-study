@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="814e2687-1460-42fa-9df2-3135de80c414" name="Changes" comment="web - HTTP 메서드">
-      <change afterPath="$PROJECT_DIR$/008-web/06. HTTP/README.md" afterDir="false" />
+    <list default="true" id="814e2687-1460-42fa-9df2-3135de80c414" name="Changes" comment="web - HTTP">
+      <change afterPath="$PROJECT_DIR$/008-web/12. CORS/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -106,13 +106,6 @@
       <workItem from="1701042457106" duration="2508000" />
       <workItem from="1701127932440" duration="2883000" />
       <workItem from="1701563944926" duration="1433000" />
-    </task>
-    <task id="LOCAL-00039" summary="Generics vs. Wildcard Generics">
-      <created>1701734951524</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1701734951524</updated>
     </task>
     <task id="LOCAL-00040" summary="Web - keep-alive">
       <created>1701821655263</created>
@@ -450,7 +443,14 @@
       <option name="project" value="LOCAL" />
       <updated>1704105851865</updated>
     </task>
-    <option name="localTasksCounter" value="88" />
+    <task id="LOCAL-00088" summary="web - HTTP">
+      <created>1704106940583</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1704106940584</updated>
+    </task>
+    <option name="localTasksCounter" value="89" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -468,7 +468,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Operating System - 사용자 모드와 커널 모드" />
     <MESSAGE value="Operating System - 스케쥴링 알고리즘" />
     <MESSAGE value="Operating System - 인터럽트" />
     <MESSAGE value="Operating System - 프로세스 구조" />
@@ -493,6 +492,7 @@
     <MESSAGE value="web - REST API" />
     <MESSAGE value="web - HTTP Status Code" />
     <MESSAGE value="web - HTTP 메서드" />
-    <option name="LAST_COMMIT_MESSAGE" value="web - HTTP 메서드" />
+    <MESSAGE value="web - HTTP" />
+    <option name="LAST_COMMIT_MESSAGE" value="web - HTTP" />
   </component>
 </project>
