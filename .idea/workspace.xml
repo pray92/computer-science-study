@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="814e2687-1460-42fa-9df2-3135de80c414" name="Changes" comment="Network: TCP vs. UDP">
-      <change afterPath="$PROJECT_DIR$/004-network/03. 3-way handshaking과 4-way handshaking/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/004-network/03. 3-way handshaking과 4-way handshaking/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/004-network/03. 3-way handshaking과 4-way handshaking/img_1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="814e2687-1460-42fa-9df2-3135de80c414" name="Changes" comment="Network: 3-way handshaking과 4-way handshaking" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -108,13 +103,6 @@
       <workItem from="1701042457106" duration="2508000" />
       <workItem from="1701127932440" duration="2883000" />
       <workItem from="1701563944926" duration="1433000" />
-    </task>
-    <task id="LOCAL-00027" summary="Java - final 사용 이점">
-      <created>1699488121908</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1699488121908</updated>
     </task>
     <task id="LOCAL-00028" summary="Java - Time API 등장 이유">
       <created>1699488774349</created>
@@ -452,7 +440,14 @@
       <option name="project" value="LOCAL" />
       <updated>1704077237720</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL-00076" summary="Network: 3-way handshaking과 4-way handshaking">
+      <created>1704084035534</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1704084035534</updated>
+    </task>
+    <option name="localTasksCounter" value="77" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -470,7 +465,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Data Structure - Red-black Tree" />
     <MESSAGE value="Data Structure - 힙 트리" />
     <MESSAGE value="Data Structure - 그래프" />
     <MESSAGE value="Algorithm - 거품 정렬" />
@@ -495,6 +489,7 @@
     <MESSAGE value="REFACTOR: 주제별 넘버링으로 정렬" />
     <MESSAGE value="Network: OSI 7 계층과 TCP/IP 4 계층" />
     <MESSAGE value="Network: TCP vs. UDP" />
-    <option name="LAST_COMMIT_MESSAGE" value="Network: TCP vs. UDP" />
+    <MESSAGE value="Network: 3-way handshaking과 4-way handshaking" />
+    <option name="LAST_COMMIT_MESSAGE" value="Network: 3-way handshaking과 4-way handshaking" />
   </component>
 </project>
