@@ -4,10 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="814e2687-1460-42fa-9df2-3135de80c414" name="Changes" comment="Database - Isolation Level">
-      <change afterPath="$PROJECT_DIR$/009-spring/02. DI와 IoC/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/009-spring/02. DI와 IoC/img.png" afterDir="false" />
+    <list default="true" id="814e2687-1460-42fa-9df2-3135de80c414" name="Changes" comment="Spring - DI/IoC">
+      <change afterPath="$PROJECT_DIR$/009-spring/04. Request 처리 방식(DispatcherServlet)/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/009-spring/04. Request 처리 방식(DispatcherServlet)/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/009-spring/04. Request 처리 방식(DispatcherServlet)/img_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/009-spring/04. Request 처리 방식(DispatcherServlet)/img_2.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/009-spring/04. Filter vs. Interceptor vs. AOP/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/009-spring/05. Filter vs. Interceptor vs. AOP/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/009-spring/04. Filter vs. Interceptor vs. AOP/img.png" beforeDir="false" afterPath="$PROJECT_DIR$/009-spring/05. Filter vs. Interceptor vs. AOP/img.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/009-spring/05. @Transactional/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/009-spring/06. @Transactional/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/009-spring/09. @EnableRedisHttpSession/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/009-spring/10. @EnableRedisHttpSession/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,11 +57,11 @@
       <recent name="$PROJECT_DIR$/010-자바-ORM-표준-JPA-프로그래밍/chapter06-다양한-연관관계-매핑/src/main/java/jpabook" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/009-spring/04. Request 처리 방식(DispatcherServlet)" />
       <recent name="$PROJECT_DIR$/008-web" />
       <recent name="$PROJECT_DIR$/009-spring" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/006-web" />
-      <recent name="$PROJECT_DIR$/009-infrastructure/Redis/Redis란?" />
     </key>
   </component>
   <component name="RunManager">
@@ -107,13 +113,6 @@
       <workItem from="1701042457106" duration="2508000" />
       <workItem from="1701127932440" duration="2883000" />
       <workItem from="1701563944926" duration="1433000" />
-    </task>
-    <task id="LOCAL-00031" summary="Java - interface vs. abstract class">
-      <created>1699914528960</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1699914528960</updated>
     </task>
     <task id="LOCAL-00032" summary="Java - interface의 변수에 자동으로 public static final이 붙는 이유">
       <created>1699914745753</created>
@@ -451,7 +450,14 @@
       <option name="project" value="LOCAL" />
       <updated>1704088805588</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL-00080" summary="Spring - DI/IoC">
+      <created>1704089403298</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1704089403299</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -469,7 +475,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Algorithm - 삽입 정렬" />
     <MESSAGE value="Algorithm - 힙 정렬" />
     <MESSAGE value="Algorithm - 퀵 정렬" />
     <MESSAGE value="Algorithm - 병합 정렬" />
@@ -494,6 +499,7 @@
     <MESSAGE value="Development Methodology - 객체지향 5대 설계 원칙" />
     <MESSAGE value="Database - Primary Key" />
     <MESSAGE value="Database - Isolation Level" />
-    <option name="LAST_COMMIT_MESSAGE" value="Database - Isolation Level" />
+    <MESSAGE value="Spring - DI/IoC" />
+    <option name="LAST_COMMIT_MESSAGE" value="Spring - DI/IoC" />
   </component>
 </project>
