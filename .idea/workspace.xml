@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="814e2687-1460-42fa-9df2-3135de80c414" name="Changes" comment="spring - Request 처리 방식" />
+    <list default="true" id="814e2687-1460-42fa-9df2-3135de80c414" name="Changes" comment="spring - Java Singleton vs. Spring Singleton" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -103,13 +103,6 @@
       <workItem from="1701042457106" duration="2508000" />
       <workItem from="1701127932440" duration="2883000" />
       <workItem from="1701563944926" duration="1433000" />
-    </task>
-    <task id="LOCAL-00034" summary="Spring - Gradle - Dependencies Property">
-      <created>1700693883616</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1700693883616</updated>
     </task>
     <task id="LOCAL-00035" summary="Infrastructure - Redis란?">
       <created>1700791769265</created>
@@ -447,7 +440,14 @@
       <option name="project" value="LOCAL" />
       <updated>1704090366420</updated>
     </task>
-    <option name="localTasksCounter" value="83" />
+    <task id="LOCAL-00083" summary="spring - Java Singleton vs. Spring Singleton">
+      <created>1704090669510</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1704090669510</updated>
+    </task>
+    <option name="localTasksCounter" value="84" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -465,7 +465,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Algorithm - 병합 정렬" />
     <MESSAGE value="Algorithm - 계수 정렬" />
     <MESSAGE value="Algorithm - 기수 정렬" />
     <MESSAGE value="Operating System - 운영체제의 역할" />
@@ -490,6 +489,7 @@
     <MESSAGE value="Spring - DI/IoC" />
     <MESSAGE value="REFACTOR: 넘버링 수정" />
     <MESSAGE value="spring - Request 처리 방식" />
-    <option name="LAST_COMMIT_MESSAGE" value="spring - Request 처리 방식" />
+    <MESSAGE value="spring - Java Singleton vs. Spring Singleton" />
+    <option name="LAST_COMMIT_MESSAGE" value="spring - Java Singleton vs. Spring Singleton" />
   </component>
 </project>
