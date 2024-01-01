@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="814e2687-1460-42fa-9df2-3135de80c414" name="Changes" comment="web - REST API">
+    <list default="true" id="814e2687-1460-42fa-9df2-3135de80c414" name="Changes" comment="web - HTTP 메서드">
+      <change afterPath="$PROJECT_DIR$/008-web/06. HTTP/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -105,20 +106,6 @@
       <workItem from="1701042457106" duration="2508000" />
       <workItem from="1701127932440" duration="2883000" />
       <workItem from="1701563944926" duration="1433000" />
-    </task>
-    <task id="LOCAL-00037" summary="Redis - redis.conf">
-      <created>1701045622706</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1701045622706</updated>
-    </task>
-    <task id="LOCAL-00038" summary="Redis - redis.conf(2)">
-      <created>1701131620176</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1701131620176</updated>
     </task>
     <task id="LOCAL-00039" summary="Generics vs. Wildcard Generics">
       <created>1701734951524</created>
@@ -449,7 +436,21 @@
       <option name="project" value="LOCAL" />
       <updated>1704092288916</updated>
     </task>
-    <option name="localTasksCounter" value="86" />
+    <task id="LOCAL-00086" summary="web - HTTP Status Code">
+      <created>1704105492485</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1704105492485</updated>
+    </task>
+    <task id="LOCAL-00087" summary="web - HTTP 메서드">
+      <created>1704105851865</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1704105851865</updated>
+    </task>
+    <option name="localTasksCounter" value="88" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -467,8 +468,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Operating System - 운영체제의 역할" />
-    <MESSAGE value="Operating System - 시스템 콜" />
     <MESSAGE value="Operating System - 사용자 모드와 커널 모드" />
     <MESSAGE value="Operating System - 스케쥴링 알고리즘" />
     <MESSAGE value="Operating System - 인터럽트" />
@@ -492,6 +491,8 @@
     <MESSAGE value="spring - Java Singleton vs. Spring Singleton" />
     <MESSAGE value="spring - JPA vs. MyBatis" />
     <MESSAGE value="web - REST API" />
-    <option name="LAST_COMMIT_MESSAGE" value="web - REST API" />
+    <MESSAGE value="web - HTTP Status Code" />
+    <MESSAGE value="web - HTTP 메서드" />
+    <option name="LAST_COMMIT_MESSAGE" value="web - HTTP 메서드" />
   </component>
 </project>
