@@ -4,10 +4,10 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.example</groupId>
-  <artifactId>06_marble_diagram</artifactId>
+  <artifactId>07_cold_sequence_hot_sequence</artifactId>
   <version>1.0-SNAPSHOT</version>
 
-  <name>06_marble_diagram</name>
+  <name>07_cold_sequence_hot_sequence</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fc0b5f50-c9cd-4a9f-bc27-7912f326d33b" name="Changes" comment="스프링으로 시작하는 리액티브 프로그래밍 - Chapter 06 : 마블 다이어그램">
+      <change afterPath="$PROJECT_DIR$/../07_cold_sequence_hot_sequence/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_cold_sequence_hot_sequence/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_cold_sequence_hot_sequence/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_cold_sequence_hot_sequence/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_cold_sequence_hot_sequence/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_cold_sequence_hot_sequence/.mvn/jvm.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_cold_sequence_hot_sequence/.mvn/maven.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_cold_sequence_hot_sequence/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_cold_sequence_hot_sequence/src/main/java/com/example/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_cold_sequence_hot_sequence/src/test/java/com/example/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_backpressure/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_backpressure/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_backpressure/.mvn/jvm.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_backpressure/.mvn/maven.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_backpressure/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_backpressure/src/main/java/com/example/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_backpressure/src/test/java/com/example/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;pray92&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/pray92/study.git&quot;,
+    &quot;accountId&quot;: &quot;bceb99c8-e9cf-4271-a6bd-ef4f17e7e0f7&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2qW5rSdO9ogwGGzZEtgtqqxg009" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.App.executor&quot;: &quot;Run&quot;,
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.App" />
+      <module name="06_marble_diagram" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.App" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fc0b5f50-c9cd-4a9f-bc27-7912f326d33b" name="Changes" comment="" />
+      <created>1734765688626</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1734765688626</updated>
+    </task>
+    <task id="LOCAL-00001" summary="스프링으로 시작하는 리액티브 프로그래밍 - Chapter 05 : Project Reactor">
+      <option name="closed" value="true" />
+      <created>1734766824898</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1734766824898</updated>
+    </task>
+    <task id="LOCAL-00002" summary="스프링으로 시작하는 리액티브 프로그래밍 - Chapter 06 : 마블 다이어그램">
+      <option name="closed" value="true" />
+      <created>1734766860556</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1734766860556</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="스프링으로 시작하는 리액티브 프로그래밍 - Chapter 05 : Project Reactor" />
+    <MESSAGE value="스프링으로 시작하는 리액티브 프로그래밍 - Chapter 06 : 마블 다이어그램" />
+    <option name="LAST_COMMIT_MESSAGE" value="스프링으로 시작하는 리액티브 프로그래밍 - Chapter 06 : 마블 다이어그램" />
+  </component>
+</project>
